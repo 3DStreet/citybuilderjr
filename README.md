@@ -8,7 +8,7 @@ asset pipeline utilities -
 
 ## audit.js
 `$ node audit`
-returns csv of gltf assets in project
+returns json file with details about gltf assets in project
 
 ## pipeline.js
 `$ node pipeline`
