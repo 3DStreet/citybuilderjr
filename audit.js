@@ -9,9 +9,22 @@ import { MeshoptDecoder, MeshoptEncoder } from 'meshoptimizer';
 import { NodeIO } from '@gltf-transform/core';
 import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { inspect } from '@gltf-transform/functions';
+import yargs from 'yargs';
+import { hideBin } from 'yargs/helpers';
+
+const argv = yargs(hideBin(process.argv))
+    .option('dir', {
+        alias: 'd',
+        type: 'string',
+        description: 'Specify the input directory',
+    })
+    .help()
+    .argv;
+
+// Use the provided directory or default to the workspace path
+const targetDirectory = argv.dir ? resolve(argv.dir) : dirname(fileURLToPath(import.meta.url));
 
 // Configure glTF I/O.
-
 await MeshoptDecoder.ready;
 await MeshoptEncoder.ready;
 
@@ -28,7 +41,7 @@ const io = new NodeIO()
 
 const limit = pLimit(4); // process up to 4 models at a time.
 const workspacePath = dirname(fileURLToPath(import.meta.url));
-const paths = await glob(resolve(workspacePath, '**/*.{glb,gltf}'));
+const paths = await glob(resolve(targetDirectory, '**/*.{glb,gltf}'));
 
 const documentPromises = paths.map((path) => limit(async () => {
     return [path, await io.read(path)];
