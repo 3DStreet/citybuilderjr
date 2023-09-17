@@ -1,5 +1,5 @@
 import { writeFile } from 'node:fs/promises';
-import { resolve, dirname, basename } from 'node:path';
+import { resolve, dirname, basename, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { SingleBar, Presets } from 'cli-progress';
 import { glob } from 'glob';
@@ -44,7 +44,8 @@ const reportData = [];
 for await (const [path, document] of documentPromises) {
     const report = inspect(document);
     const entry = {
-        name: basename(path),
+		name: basename(path, extname(path)), // Gets the basename without extension
+		src: path.substring(workspacePath.length + 1), // source gltf file path relative to current directory
         nodes: document.getRoot().listNodes().length,
         meshes: sum(report.meshes, 'primitives'),
         materials: document.getRoot().listMaterials().length,
