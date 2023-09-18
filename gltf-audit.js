@@ -73,9 +73,9 @@ bar.stop();
 
 // Write output
 
-console.log('🗄️  Writing audit.json...');
+console.log('🗄️  Writing gltf-audit.json...');
 
-await writeFile(resolve(workspacePath, 'audit.json'), JSON.stringify(reportData, null, 2));
+await writeFile(resolve(workspacePath, 'gltf-audit.json'), JSON.stringify(reportData, null, 2));
 
 console.log('🍻  Done!');
 
