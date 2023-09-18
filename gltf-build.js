@@ -64,8 +64,8 @@ if (argv.update) {
 // Set up search on the input directory provided.
 const limit = pLimit(4); 
 const inputDir = resolve(argv.input);  // Use provided input directory
-const paths = (await glob(resolve(inputDir, '**/*.{glb,gltf}')))
-	.filter((path) => !parse(path).name.endsWith('_opt'));
+const paths = (await glob(resolve(inputDir, '**/*.{glb,gltf}')));
+const workspacePath = dirname(fileURLToPath(import.meta.url));
 
 const bar = new SingleBar({}, Presets.shades_classic);
 bar.start(paths.length, 0);
@@ -86,7 +86,7 @@ await Promise.all(paths.map((path) => limit(async () => {
 		draco()
 	);
 
-	const name = parse(path).name + '_opt.glb';
+	const name = parse(path).name + '.glb';
 	await io.write(resolve(argv.output, name), document);  // Use provided output directory
 
 	if (argv.update) {
@@ -95,7 +95,7 @@ await Promise.all(paths.map((path) => limit(async () => {
 			return parse(entry.src).name === name;
 		});
         if (entryIndex !== -1) {
-            auditData[entryIndex].dist = resolve(argv.output, name + '_opt.glb');
+            auditData[entryIndex].dist = resolve(argv.output, name + '.glb').substring(workspacePath.length + 1);
         }
     }
 
