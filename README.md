@@ -1,6 +1,6 @@
 # citybuilderjr
-
-City building demo project for A-Frame.
+## City building demo project for A-Frame.
+<img src="https://github.com/3DStreet/citybuilderjr/assets/470477/b72f5857-32fe-45a3-8252-3670a1e1ea7d" width=300 />
 
 Features:
 * Cross platform -- runs in most web browsers across devices.
