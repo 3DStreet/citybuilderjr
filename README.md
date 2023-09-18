@@ -1,5 +1,18 @@
 # citybuilderjr
 
+City building demo project for A-Frame.
+
+Features:
+* Cross platform -- runs in most web browsers across devices.
+* Simple to use -- Click and drag on desktop. Open it on a smartphone and use the device motion sensors. Or [plug in a VR headset](https://immersiveweb.dev/)!
+* Quest controller support -- Use Meta Quest headset and controllers to make a scene
+* Reusable gltf asset build system -- example to use for other projects
+
+Credits:
+* Continuation of work from: https://glitch.com/edit/#!/aframe-2-vr-menus
+* Modified from this original: https://glitch.com/~aframe-aincraft
+* Inspired by: https://threejs.org/examples/webgl_interactive_voxelpainter.html
+* Built with [A-Frame](https://aframe.io), a web framework for building virtual reality experiences. Make WebVR with HTML and Entity-Component. Works on Vive, Rift, desktop, mobile platforms.
 * source assets from kaykit https://kaylousberg.itch.io/city-builder-bits
 * audit.js and pipeline.js scripts using donmccurdy's gltf-transform package
 * screenshot-glb script from shopify
