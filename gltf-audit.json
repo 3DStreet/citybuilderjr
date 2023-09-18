@@ -6,7 +6,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 231,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/watertower_opt.glb"
   },
   {
     "name": "tree_E",
@@ -15,7 +16,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 232,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/tree_E_opt.glb"
   },
   {
     "name": "tree_D",
@@ -24,7 +26,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 262,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/tree_D_opt.glb"
   },
   {
     "name": "tree_C",
@@ -33,7 +36,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 171,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/tree_C_opt.glb"
   },
   {
     "name": "tree_B",
@@ -42,7 +46,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 171,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/tree_B_opt.glb"
   },
   {
     "name": "tree_A",
@@ -51,7 +56,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 302,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/tree_A_opt.glb"
   },
   {
     "name": "trash_B",
@@ -60,7 +66,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 16,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/trash_B_opt.glb"
   },
   {
     "name": "trash_A",
@@ -69,7 +76,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 16,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/trash_A_opt.glb"
   },
   {
     "name": "trafficlight_C",
@@ -78,7 +86,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 671,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/trafficlight_C_opt.glb"
   },
   {
     "name": "trafficlight_B",
@@ -87,7 +96,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 993,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/trafficlight_B_opt.glb"
   },
   {
     "name": "trafficlight_A",
@@ -96,7 +106,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 863,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/trafficlight_A_opt.glb"
   },
   {
     "name": "streetlight_old_single",
@@ -105,7 +116,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 208,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/streetlight_old_single_opt.glb"
   },
   {
     "name": "streetlight_old_double",
@@ -114,7 +126,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 396,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/streetlight_old_double_opt.glb"
   },
   {
     "name": "streetlight",
@@ -123,7 +136,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 190,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/streetlight_opt.glb"
   },
   {
     "name": "road_tsplit",
@@ -132,7 +146,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 210,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_tsplit_opt.glb"
   },
   {
     "name": "road_straight_crossing",
@@ -141,7 +156,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 116,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_straight_crossing_opt.glb"
   },
   {
     "name": "road_straight",
@@ -150,7 +166,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 104,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_straight_opt.glb"
   },
   {
     "name": "road_junction",
@@ -159,7 +176,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 272,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_junction_opt.glb"
   },
   {
     "name": "road_corner_curved",
@@ -168,7 +186,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 217,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_corner_curved_opt.glb"
   },
   {
     "name": "road_corner",
@@ -177,7 +196,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 203,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/road_corner_opt.glb"
   },
   {
     "name": "park_wall_straight_decorated",
@@ -186,7 +206,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1365,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_straight_decorated_opt.glb"
   },
   {
     "name": "park_wall_straight",
@@ -195,7 +216,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 132,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_straight_opt.glb"
   },
   {
     "name": "park_wall_outerCorner_decorated",
@@ -204,7 +226,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1395,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_outerCorner_decorated_opt.glb"
   },
   {
     "name": "park_wall_outerCorner",
@@ -213,7 +236,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 252,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_outerCorner_opt.glb"
   },
   {
     "name": "park_wall_innerCorner_decorated",
@@ -222,7 +246,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1482,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_innerCorner_decorated_opt.glb"
   },
   {
     "name": "park_wall_innerCorner",
@@ -231,7 +256,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 161,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_innerCorner_opt.glb"
   },
   {
     "name": "park_wall_entry_decorated",
@@ -240,7 +266,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1026,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_entry_decorated_opt.glb"
   },
   {
     "name": "park_wall_entry",
@@ -249,7 +276,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 379,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_wall_entry_opt.glb"
   },
   {
     "name": "park_road_tsplit_decorated",
@@ -258,7 +286,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 729,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_tsplit_decorated_opt.glb"
   },
   {
     "name": "park_road_tsplit",
@@ -267,7 +296,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 103,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_tsplit_opt.glb"
   },
   {
     "name": "park_road_straight_decorated_B",
@@ -276,7 +306,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 694,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_straight_decorated_B_opt.glb"
   },
   {
     "name": "park_road_straight_decorated_A",
@@ -285,7 +316,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 742,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_straight_decorated_A_opt.glb"
   },
   {
     "name": "park_road_straight",
@@ -294,7 +326,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 52,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_straight_opt.glb"
   },
   {
     "name": "park_road_junction_decorated_C",
@@ -303,7 +336,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 650,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_junction_decorated_C_opt.glb"
   },
   {
     "name": "park_road_junction_decorated_B",
@@ -312,7 +346,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 772,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_junction_decorated_B_opt.glb"
   },
   {
     "name": "park_road_junction_decorated_A",
@@ -321,7 +356,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 315,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_junction_decorated_A_opt.glb"
   },
   {
     "name": "park_road_junction",
@@ -330,7 +366,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 142,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_junction_opt.glb"
   },
   {
     "name": "park_road_corner_decorated",
@@ -339,7 +376,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 593,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_corner_decorated_opt.glb"
   },
   {
     "name": "park_road_corner",
@@ -348,7 +386,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 88,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_road_corner_opt.glb"
   },
   {
     "name": "park_base_decorated_trees",
@@ -357,7 +396,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1389,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_base_decorated_trees_opt.glb"
   },
   {
     "name": "park_base_decorated_bushes",
@@ -366,7 +406,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 285,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_base_decorated_bushes_opt.glb"
   },
   {
     "name": "park_base",
@@ -375,7 +416,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 24,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/park_base_opt.glb"
   },
   {
     "name": "firehydrant",
@@ -384,7 +426,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 218,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/firehydrant_opt.glb"
   },
   {
     "name": "dumpster",
@@ -393,7 +436,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 232,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/dumpster_opt.glb"
   },
   {
     "name": "car_taxi",
@@ -402,7 +446,8 @@
     "meshes": 5,
     "materials": 1,
     "vertices": 1653,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/car_taxi_opt.glb"
   },
   {
     "name": "car_stationwagon",
@@ -411,7 +456,8 @@
     "meshes": 5,
     "materials": 1,
     "vertices": 1578,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/car_stationwagon_opt.glb"
   },
   {
     "name": "car_sedan",
@@ -420,7 +466,8 @@
     "meshes": 5,
     "materials": 1,
     "vertices": 1554,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/car_sedan_opt.glb"
   },
   {
     "name": "car_police",
@@ -429,7 +476,8 @@
     "meshes": 5,
     "materials": 1,
     "vertices": 1750,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/car_police_opt.glb"
   },
   {
     "name": "car_hatchback",
@@ -438,7 +486,8 @@
     "meshes": 5,
     "materials": 1,
     "vertices": 1504,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/car_hatchback_opt.glb"
   },
   {
     "name": "bush_C",
@@ -447,7 +496,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 29,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/bush_C_opt.glb"
   },
   {
     "name": "bush_B",
@@ -456,7 +506,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 31,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/bush_B_opt.glb"
   },
   {
     "name": "bush_A",
@@ -465,7 +516,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 29,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/bush_A_opt.glb"
   },
   {
     "name": "bush",
@@ -474,7 +526,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 82,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/bush_opt.glb"
   },
   {
     "name": "building_H_withoutBase",
@@ -483,7 +536,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 2465,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_H_withoutBase_opt.glb"
   },
   {
     "name": "building_H",
@@ -492,7 +546,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 3336,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_H_opt.glb"
   },
   {
     "name": "building_G_withoutBase",
@@ -501,7 +556,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1955,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_G_withoutBase_opt.glb"
   },
   {
     "name": "building_G",
@@ -510,7 +566,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 2920,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_G_opt.glb"
   },
   {
     "name": "building_F_withoutBase",
@@ -519,7 +576,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 2019,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_F_withoutBase_opt.glb"
   },
   {
     "name": "building_F",
@@ -528,7 +586,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 2373,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_F_opt.glb"
   },
   {
     "name": "building_E_withoutBase",
@@ -537,7 +596,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1762,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_E_withoutBase_opt.glb"
   },
   {
     "name": "building_E",
@@ -546,7 +606,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 2397,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_E_opt.glb"
   },
   {
     "name": "building_D_withoutBase",
@@ -555,7 +616,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1581,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_D_withoutBase_opt.glb"
   },
   {
     "name": "building_D",
@@ -564,7 +626,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1972,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_D_opt.glb"
   },
   {
     "name": "building_C_withoutBase",
@@ -573,7 +636,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1236,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_C_withoutBase_opt.glb"
   },
   {
     "name": "building_C",
@@ -582,7 +646,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1731,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_C_opt.glb"
   },
   {
     "name": "building_B_withoutBase",
@@ -591,7 +656,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1104,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_B_withoutBase_opt.glb"
   },
   {
     "name": "building_B",
@@ -600,7 +666,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1843,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_B_opt.glb"
   },
   {
     "name": "building_A_withoutBase",
@@ -609,7 +676,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 819,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_A_withoutBase_opt.glb"
   },
   {
     "name": "building_A",
@@ -618,7 +686,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 1392,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_A_opt.glb"
   },
   {
     "name": "box_B",
@@ -627,7 +696,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 38,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/box_B_opt.glb"
   },
   {
     "name": "box_A",
@@ -636,7 +706,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 64,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/box_A_opt.glb"
   },
   {
     "name": "bench",
@@ -645,7 +716,8 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 80,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/bench_opt.glb"
   },
   {
     "name": "base",
@@ -654,6 +726,7 @@
     "meshes": 1,
     "materials": 1,
     "vertices": 96,
-    "keyframes": 0
+    "keyframes": 0,
+    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/base_opt.glb"
   }
 ]

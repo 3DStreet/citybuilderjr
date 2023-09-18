@@ -10,6 +10,7 @@ import { ALL_EXTENSIONS } from '@gltf-transform/extensions';
 import { dedup, flatten, dequantize, join, weld, resample, prune, sparse, draco } from '@gltf-transform/functions';
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
+import { readFile, writeFile } from 'node:fs/promises';
 
 // Parse command-line arguments
 const argv = yargs(hideBin(process.argv))
@@ -23,6 +24,11 @@ const argv = yargs(hideBin(process.argv))
         description: 'Output directory path',
         type: 'string',
     })
+	.option('update', {
+		alias: 'u',
+		description: 'Update gltf-audit.json with new paths',
+		type: 'boolean',
+	})
     .demandOption(['input', 'output'], 'Please provide both input and output paths')
     .help()
     .argv;
@@ -40,6 +46,20 @@ const io = new NodeIO()
 		'meshopt.decoder': MeshoptDecoder,
 		'meshopt.encoder': MeshoptEncoder,
 	});
+
+let auditData = [];
+
+// Check if the update flag is provided and read the existing gltf-audit.json
+if (argv.update) {
+    try {
+        const rawAudit = await readFile('gltf-audit.json', 'utf8');
+        auditData = JSON.parse(rawAudit);
+    } catch (error) {
+        console.error("Failed to read gltf-audit.json. Make sure the file exists.");
+        process.exit(1);
+    }
+}
+
 
 // Set up search on the input directory provided.
 const limit = pLimit(4); 
@@ -69,8 +89,22 @@ await Promise.all(paths.map((path) => limit(async () => {
 	const name = parse(path).name + '_opt.glb';
 	await io.write(resolve(argv.output, name), document);  // Use provided output directory
 
+	if (argv.update) {
+        const name = parse(path).name;
+		const entryIndex = auditData.findIndex(entry => {
+			return parse(entry.src).name === name;
+		});
+        if (entryIndex !== -1) {
+            auditData[entryIndex].dist = resolve(argv.output, name + '_opt.glb');
+        }
+    }
+
 	bar.increment();
 })));
+
+if (argv.update) {
+    await writeFile('gltf-audit.json', JSON.stringify(auditData, null, 2));
+}
 
 bar.stop();
 
