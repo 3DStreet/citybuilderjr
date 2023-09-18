@@ -1,4 +1,5 @@
 import { resolve, dirname, parse } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { SingleBar, Presets } from 'cli-progress';
 import { glob } from 'glob';
 import pLimit from 'p-limit';
@@ -74,18 +75,11 @@ function runCommand(command) {
 // Set up search on the input directory provided.
 const limit = pLimit(4); 
 const inputDir = resolve(argv.input);  // Use provided input directory
-console.log('inputDir', inputDir)
-// const paths = (await glob(resolve(inputDir, '**/*.{glb}')));
-
 const paths = (await glob(resolve(inputDir, '**/*.glb')))
-	// .filter((path) => !parse(path).name.endsWith('_opt'));
-
-console.log('paths', paths)
-// process.exit(1);
+const workspacePath = dirname(fileURLToPath(import.meta.url));
 
 const bar = new SingleBar({}, Presets.shades_classic);
 bar.start(paths.length, 0);
-
 
 // Iterate over all models and process.
 await Promise.all(paths.map((path) => limit(async () => {
@@ -100,7 +94,7 @@ await Promise.all(paths.map((path) => limit(async () => {
 			return parse(entry.src).name === name;
 		});
         if (entryIndex !== -1) {
-            auditData[entryIndex].img = resolve(argv.output, name + '.jpg');
+            auditData[entryIndex].img = resolve(argv.output, name + '.jpg').substring(workspacePath.length + 1);
         }
     }
 
