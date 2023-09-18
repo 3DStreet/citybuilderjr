@@ -17,27 +17,22 @@ example usage:
 `$ node gltf-build -i src -o dist`
 * takes input directory of assets and optimizes each including adding draco compression to an output directory
 * -i and -o are required
-* TODO: add option such as --update (or -u) gltf-audit.json which will match src name with each file and add a new key / value pair of 'dist' key and value of new glb path
+* optional --update (or -u) will assume existence of gltf-audit.json from gltf-audit.js above, and add the newly built glb files under "dist" key
+`$ node gltf-build -i src -o dist -u`
 
-## screenshot-glb
+## gltf-screenshots.js
+example usage
+`$ node gltf-screenshots -i ./dist/ -o ./dist/`
+* optional --update (or -u) will assume existence of gltf-audit.json from gltf-audit.js above, and add the newly built jpeg files under "img" key
+
+## screenshot-glb (shopify script)
 example usage:
 `$ screenshot-glb -i input.glb -o test.png`
 * create a screenshot using the screenshot-glb script
 * glb is required, doesn't work with gltf ([issue](https://github.com/Shopify/screenshot-glb/issues/98))
 * TODO: script to run screenshot-glb across all glb in a dist json
-* TODO: script to add output image file name in 
+* TODO: script to add output image file name in gltf-audit.json
 
-## Potential usage
-npm run audit - get json
--- add optional input path
-
-ideal usage
-npm run gltf-audit
-- generates the gltf-audit.json
-
-npm run gltf-build
-- updates gltf-audit.json with glb paths
-- 
 
 npm run generate-screenshots -i ./dist/models/kaykit/ -o ./dist/models/kaykit/
 
