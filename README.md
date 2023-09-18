@@ -49,12 +49,4 @@ example usage:
 `$ screenshot-glb -i input.glb -o test.png`
 * create a screenshot using the screenshot-glb script
 * glb is required, doesn't work with gltf ([issue](https://github.com/Shopify/screenshot-glb/issues/98))
-* DONE: script to run screenshot-glb across all glb in a dist json
-* TODO: script to add output image file name in gltf-audit.json
-* DONE: dist path from build.js uses absolute path instead of relative path    "dist": "/Users/kieranfarr/dev/citybuilderjr/dist/building_A_withoutBase_opt.glb"
-
-
-npm run generate-screenshots -i ./dist/models/kaykit/ -o ./dist/models/kaykit/
-
--i input is /dist/models/kaykit/[name].glb
--o /dist/models/kaykit/[name].jpg
+\
