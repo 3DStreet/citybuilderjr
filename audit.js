@@ -13,16 +13,16 @@ import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 
 const argv = yargs(hideBin(process.argv))
-    .option('dir', {
-        alias: 'd',
+    .option('input', {
+        alias: 'i',
+        description: 'Input directory path',
         type: 'string',
-        description: 'Specify the input directory',
     })
     .help()
     .argv;
 
 // Use the provided directory or default to the workspace path
-const targetDirectory = argv.dir ? resolve(argv.dir) : dirname(fileURLToPath(import.meta.url));
+const targetDirectory = argv.input ? resolve(argv.input) : dirname(fileURLToPath(import.meta.url));
 
 // Configure glTF I/O.
 await MeshoptDecoder.ready;
