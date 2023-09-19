@@ -1,5 +1,5 @@
 # citybuilderjr
-## City building demo project for A-Frame showing off gltf model pipeline.
+## City building demo project showing gltf to app pipeline using gltf-transform and screenshot-glb.
 <img src="https://github.com/3DStreet/citybuilderjr/assets/470477/b72f5857-32fe-45a3-8252-3670a1e1ea7d" width=300 />
 
 Features:
