@@ -63,7 +63,9 @@ for await (const [path, document] of documentPromises) {
         meshes: sum(report.meshes, 'primitives'),
         materials: document.getRoot().listMaterials().length,
         vertices: sum(report.meshes, 'vertices'),
-        keyframes: sum(report.animations, 'keyframes')
+        keyframes: sum(report.animations, 'keyframes'),
+        bboxMin: report.scenes.properties[0].bboxMin,
+        bboxMax: report.scenes.properties[0].bboxMax,
     };
     reportData.push(entry);
     bar.increment();

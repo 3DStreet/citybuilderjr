@@ -7,6 +7,16 @@
     "materials": 1,
     "vertices": 231,
     "keyframes": 0,
+    "bboxMin": [
+      -0.24944,
+      0,
+      -0.24944
+    ],
+    "bboxMax": [
+      0.24944,
+      0.67,
+      0.24944
+    ],
     "dist": "dist/watertower.glb",
     "img": "dist/watertower.jpg"
   },
@@ -18,6 +28,16 @@
     "materials": 1,
     "vertices": 232,
     "keyframes": 0,
+    "bboxMin": [
+      -0.35965,
+      0,
+      -0.51994
+    ],
+    "bboxMax": [
+      0.52432,
+      1.06844,
+      0.39919
+    ],
     "dist": "dist/tree_E.glb",
     "img": "dist/tree_E.jpg"
   },
@@ -29,6 +49,16 @@
     "materials": 1,
     "vertices": 262,
     "keyframes": 0,
+    "bboxMin": [
+      -0.46062,
+      0,
+      -0.55123
+    ],
+    "bboxMax": [
+      0.55563,
+      1.07151,
+      0.4509
+    ],
     "dist": "dist/tree_D.glb",
     "img": "dist/tree_D.jpg"
   },
@@ -40,6 +70,16 @@
     "materials": 1,
     "vertices": 171,
     "keyframes": 0,
+    "bboxMin": [
+      -0.59877,
+      0,
+      -0.50242
+    ],
+    "bboxMax": [
+      0.513,
+      1.08662,
+      0.30374
+    ],
     "dist": "dist/tree_C.glb",
     "img": "dist/tree_C.jpg"
   },
@@ -51,6 +91,16 @@
     "materials": 1,
     "vertices": 171,
     "keyframes": 0,
+    "bboxMin": [
+      -0.08797,
+      -0.00222,
+      -0.48997
+    ],
+    "bboxMax": [
+      0.86114,
+      1.08675,
+      0.36058
+    ],
     "dist": "dist/tree_B.glb",
     "img": "dist/tree_B.jpg"
   },
@@ -62,6 +112,16 @@
     "materials": 1,
     "vertices": 302,
     "keyframes": 0,
+    "bboxMin": [
+      -0.47757,
+      0,
+      -0.5468
+    ],
+    "bboxMax": [
+      0.55058,
+      1.18415,
+      0.4326
+    ],
     "dist": "dist/tree_A.glb",
     "img": "dist/tree_A.jpg"
   },
@@ -73,6 +133,16 @@
     "materials": 1,
     "vertices": 16,
     "keyframes": 0,
+    "bboxMin": [
+      -0.02651,
+      0,
+      -0.03237
+    ],
+    "bboxMax": [
+      0.04155,
+      0.04039,
+      0.03847
+    ],
     "dist": "dist/trash_B.glb",
     "img": "dist/trash_B.jpg"
   },
@@ -84,6 +154,16 @@
     "materials": 1,
     "vertices": 16,
     "keyframes": 0,
+    "bboxMin": [
+      -0.06009,
+      0,
+      -0.06665
+    ],
+    "bboxMax": [
+      0.06669,
+      0.05238,
+      0.06665
+    ],
     "dist": "dist/trash_A.glb",
     "img": "dist/trash_A.jpg"
   },
@@ -95,6 +175,16 @@
     "materials": 1,
     "vertices": 671,
     "keyframes": 0,
+    "bboxMin": [
+      -0.76403,
+      0.00001,
+      -0.13701
+    ],
+    "bboxMax": [
+      0.03371,
+      0.96949,
+      0.13458
+    ],
     "dist": "dist/trafficlight_C.glb",
     "img": "dist/trafficlight_C.jpg"
   },
@@ -106,6 +196,16 @@
     "materials": 1,
     "vertices": 993,
     "keyframes": 0,
+    "bboxMin": [
+      -0.23921,
+      0.00001,
+      -0.03986
+    ],
+    "bboxMax": [
+      0.03986,
+      0.95992,
+      0.11071
+    ],
     "dist": "dist/trafficlight_B.glb",
     "img": "dist/trafficlight_B.jpg"
   },
@@ -117,6 +217,16 @@
     "materials": 1,
     "vertices": 863,
     "keyframes": 0,
+    "bboxMin": [
+      -0.13458,
+      0.00001,
+      -0.03986
+    ],
+    "bboxMax": [
+      0.03986,
+      0.7295,
+      0.11071
+    ],
     "dist": "dist/trafficlight_A.glb",
     "img": "dist/trafficlight_A.jpg"
   },
@@ -128,6 +238,16 @@
     "materials": 1,
     "vertices": 208,
     "keyframes": 0,
+    "bboxMin": [
+      -0.06,
+      0,
+      -0.05999
+    ],
+    "bboxMax": [
+      0.06,
+      0.7,
+      0.06001
+    ],
     "dist": "dist/streetlight_old_single.glb",
     "img": "dist/streetlight_old_single.jpg"
   },
@@ -139,6 +259,16 @@
     "materials": 1,
     "vertices": 396,
     "keyframes": 0,
+    "bboxMin": [
+      -0.16,
+      0,
+      -0.05999
+    ],
+    "bboxMax": [
+      0.16,
+      0.7,
+      0.06001
+    ],
     "dist": "dist/streetlight_old_double.glb",
     "img": "dist/streetlight_old_double.jpg"
   },
@@ -150,6 +280,16 @@
     "materials": 1,
     "vertices": 190,
     "keyframes": 0,
+    "bboxMin": [
+      -0.23921,
+      0.00001,
+      -0.03451
+    ],
+    "bboxMax": [
+      0.0301,
+      0.95992,
+      0.03451
+    ],
     "dist": "dist/streetlight.glb",
     "img": "dist/streetlight.jpg"
   },
@@ -161,6 +301,16 @@
     "materials": 1,
     "vertices": 210,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_tsplit.glb",
     "img": "dist/road_tsplit.jpg"
   },
@@ -172,6 +322,16 @@
     "materials": 1,
     "vertices": 116,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_straight_crossing.glb",
     "img": "dist/road_straight_crossing.jpg"
   },
@@ -183,6 +343,16 @@
     "materials": 1,
     "vertices": 104,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_straight.glb",
     "img": "dist/road_straight.jpg"
   },
@@ -194,6 +364,16 @@
     "materials": 1,
     "vertices": 272,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_junction.glb",
     "img": "dist/road_junction.jpg"
   },
@@ -205,6 +385,16 @@
     "materials": 1,
     "vertices": 217,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_corner_curved.glb",
     "img": "dist/road_corner_curved.jpg"
   },
@@ -216,6 +406,16 @@
     "materials": 1,
     "vertices": 203,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/road_corner.glb",
     "img": "dist/road_corner.jpg"
   },
@@ -227,6 +427,16 @@
     "materials": 1,
     "vertices": 1365,
     "keyframes": 0,
+    "bboxMin": [
+      -1.01362,
+      0,
+      -1.006
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
     "dist": "dist/park_wall_straight_decorated.glb",
     "img": "dist/park_wall_straight_decorated.jpg"
   },
@@ -238,6 +448,16 @@
     "materials": 1,
     "vertices": 132,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
     "dist": "dist/park_wall_straight.glb",
     "img": "dist/park_wall_straight.jpg"
   },
@@ -249,6 +469,16 @@
     "materials": 1,
     "vertices": 1395,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00771,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
     "dist": "dist/park_wall_outerCorner_decorated.glb",
     "img": "dist/park_wall_outerCorner_decorated.jpg"
   },
@@ -260,6 +490,16 @@
     "materials": 1,
     "vertices": 252,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
     "dist": "dist/park_wall_outerCorner.glb",
     "img": "dist/park_wall_outerCorner.jpg"
   },
@@ -271,6 +511,16 @@
     "materials": 1,
     "vertices": 1482,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
     "dist": "dist/park_wall_innerCorner_decorated.glb",
     "img": "dist/park_wall_innerCorner_decorated.jpg"
   },
@@ -282,6 +532,16 @@
     "materials": 1,
     "vertices": 161,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
     "dist": "dist/park_wall_innerCorner.glb",
     "img": "dist/park_wall_innerCorner.jpg"
   },
@@ -293,6 +553,16 @@
     "materials": 1,
     "vertices": 1026,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.95,
+      1
+    ],
     "dist": "dist/park_wall_entry_decorated.glb",
     "img": "dist/park_wall_entry_decorated.jpg"
   },
@@ -304,6 +574,16 @@
     "materials": 1,
     "vertices": 379,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.95,
+      1
+    ],
     "dist": "dist/park_wall_entry.glb",
     "img": "dist/park_wall_entry.jpg"
   },
@@ -315,6 +595,16 @@
     "materials": 1,
     "vertices": 729,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.18675,
+      1
+    ],
     "dist": "dist/park_road_tsplit_decorated.glb",
     "img": "dist/park_road_tsplit_decorated.jpg"
   },
@@ -326,6 +616,16 @@
     "materials": 1,
     "vertices": 103,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/park_road_tsplit.glb",
     "img": "dist/park_road_tsplit.jpg"
   },
@@ -337,6 +637,16 @@
     "materials": 1,
     "vertices": 694,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.8,
+      1
+    ],
     "dist": "dist/park_road_straight_decorated_B.glb",
     "img": "dist/park_road_straight_decorated_B.jpg"
   },
@@ -348,6 +658,16 @@
     "materials": 1,
     "vertices": 742,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.18662,
+      1
+    ],
     "dist": "dist/park_road_straight_decorated_A.glb",
     "img": "dist/park_road_straight_decorated_A.jpg"
   },
@@ -359,6 +679,16 @@
     "materials": 1,
     "vertices": 52,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/park_road_straight.glb",
     "img": "dist/park_road_straight.jpg"
   },
@@ -370,6 +700,16 @@
     "materials": 1,
     "vertices": 650,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.3,
+      1
+    ],
     "dist": "dist/park_road_junction_decorated_C.glb",
     "img": "dist/park_road_junction_decorated_C.jpg"
   },
@@ -381,6 +721,16 @@
     "materials": 1,
     "vertices": 772,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.33559,
+      1
+    ],
     "dist": "dist/park_road_junction_decorated_B.glb",
     "img": "dist/park_road_junction_decorated_B.jpg"
   },
@@ -392,6 +742,16 @@
     "materials": 1,
     "vertices": 315,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.43654,
+      1
+    ],
     "dist": "dist/park_road_junction_decorated_A.glb",
     "img": "dist/park_road_junction_decorated_A.jpg"
   },
@@ -403,6 +763,16 @@
     "materials": 1,
     "vertices": 142,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/park_road_junction.glb",
     "img": "dist/park_road_junction.jpg"
   },
@@ -414,6 +784,16 @@
     "materials": 1,
     "vertices": 593,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
     "dist": "dist/park_road_corner_decorated.glb",
     "img": "dist/park_road_corner_decorated.jpg"
   },
@@ -425,6 +805,16 @@
     "materials": 1,
     "vertices": 88,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/park_road_corner.glb",
     "img": "dist/park_road_corner.jpg"
   },
@@ -436,6 +826,16 @@
     "materials": 1,
     "vertices": 1389,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
     "dist": "dist/park_base_decorated_trees.glb",
     "img": "dist/park_base_decorated_trees.jpg"
   },
@@ -447,6 +847,16 @@
     "materials": 1,
     "vertices": 285,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.46166,
+      1
+    ],
     "dist": "dist/park_base_decorated_bushes.glb",
     "img": "dist/park_base_decorated_bushes.jpg"
   },
@@ -458,6 +868,16 @@
     "materials": 1,
     "vertices": 24,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/park_base.glb",
     "img": "dist/park_base.jpg"
   },
@@ -469,6 +889,16 @@
     "materials": 1,
     "vertices": 218,
     "keyframes": 0,
+    "bboxMin": [
+      -0.06775,
+      0,
+      -0.0651
+    ],
+    "bboxMax": [
+      0.06775,
+      0.2246,
+      0.06622
+    ],
     "dist": "dist/firehydrant.glb",
     "img": "dist/firehydrant.jpg"
   },
@@ -480,6 +910,16 @@
     "materials": 1,
     "vertices": 232,
     "keyframes": 0,
+    "bboxMin": [
+      -0.28297,
+      0,
+      -0.1764
+    ],
+    "bboxMax": [
+      0.28297,
+      0.31728,
+      0.1764
+    ],
     "dist": "dist/dumpster.glb",
     "img": "dist/dumpster.jpg"
   },
@@ -491,6 +931,16 @@
     "materials": 1,
     "vertices": 1653,
     "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.37343,
+      0.46574
+    ],
     "dist": "dist/car_taxi.glb",
     "img": "dist/car_taxi.jpg"
   },
@@ -502,6 +952,16 @@
     "materials": 1,
     "vertices": 1578,
     "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.46574
+    ],
     "dist": "dist/car_stationwagon.glb",
     "img": "dist/car_stationwagon.jpg"
   },
@@ -513,6 +973,16 @@
     "materials": 1,
     "vertices": 1554,
     "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.46574
+    ],
     "dist": "dist/car_sedan.glb",
     "img": "dist/car_sedan.jpg"
   },
@@ -524,6 +994,16 @@
     "materials": 1,
     "vertices": 1750,
     "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.35159,
+      0.46574
+    ],
     "dist": "dist/car_police.glb",
     "img": "dist/car_police.jpg"
   },
@@ -535,6 +1015,16 @@
     "materials": 1,
     "vertices": 1504,
     "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.39533
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.41074
+    ],
     "dist": "dist/car_hatchback.glb",
     "img": "dist/car_hatchback.jpg"
   },
@@ -546,6 +1036,16 @@
     "materials": 1,
     "vertices": 29,
     "keyframes": 0,
+    "bboxMin": [
+      -0.19179,
+      0,
+      -0.2044
+    ],
+    "bboxMax": [
+      0.18873,
+      0.27743,
+      0.18756
+    ],
     "dist": "dist/bush_C.glb",
     "img": "dist/bush_C.jpg"
   },
@@ -557,6 +1057,16 @@
     "materials": 1,
     "vertices": 31,
     "keyframes": 0,
+    "bboxMin": [
+      -0.34909,
+      0,
+      -0.34033
+    ],
+    "bboxMax": [
+      0.3294,
+      0.36166,
+      0.32746
+    ],
     "dist": "dist/bush_B.glb",
     "img": "dist/bush_B.jpg"
   },
@@ -568,6 +1078,16 @@
     "materials": 1,
     "vertices": 29,
     "keyframes": 0,
+    "bboxMin": [
+      -0.25841,
+      0,
+      -0.27198
+    ],
+    "bboxMax": [
+      0.25146,
+      0.33654,
+      0.24752
+    ],
     "dist": "dist/bush_A.glb",
     "img": "dist/bush_A.jpg"
   },
@@ -579,6 +1099,16 @@
     "materials": 1,
     "vertices": 82,
     "keyframes": 0,
+    "bboxMin": [
+      -0.08946,
+      0,
+      -0.09955
+    ],
+    "bboxMax": [
+      0.0999,
+      0.38053,
+      0.09954
+    ],
     "dist": "dist/bush.glb",
     "img": "dist/bush.jpg"
   },
@@ -590,6 +1120,16 @@
     "materials": 1,
     "vertices": 2465,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      3.05,
+      0.65
+    ],
     "dist": "dist/building_H_withoutBase.glb",
     "img": "dist/building_H_withoutBase.jpg"
   },
@@ -601,6 +1141,16 @@
     "materials": 1,
     "vertices": 3336,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      3.05,
+      1
+    ],
     "dist": "dist/building_H.glb",
     "img": "dist/building_H.jpg"
   },
@@ -612,6 +1162,16 @@
     "materials": 1,
     "vertices": 1955,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.8
+    ],
     "dist": "dist/building_G_withoutBase.glb",
     "img": "dist/building_G_withoutBase.jpg"
   },
@@ -623,6 +1183,16 @@
     "materials": 1,
     "vertices": 2920,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.97635,
+      1
+    ],
     "dist": "dist/building_G.glb",
     "img": "dist/building_G.jpg"
   },
@@ -634,6 +1204,16 @@
     "materials": 1,
     "vertices": 2019,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.65
+    ],
     "dist": "dist/building_F_withoutBase.glb",
     "img": "dist/building_F_withoutBase.jpg"
   },
@@ -645,6 +1225,16 @@
     "materials": 1,
     "vertices": 2373,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      1
+    ],
     "dist": "dist/building_F.glb",
     "img": "dist/building_F.jpg"
   },
@@ -656,6 +1246,16 @@
     "materials": 1,
     "vertices": 1762,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.8
+    ],
     "dist": "dist/building_E_withoutBase.glb",
     "img": "dist/building_E_withoutBase.jpg"
   },
@@ -667,6 +1267,16 @@
     "materials": 1,
     "vertices": 2397,
     "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      1
+    ],
     "dist": "dist/building_E.glb",
     "img": "dist/building_E.jpg"
   },
@@ -678,6 +1288,16 @@
     "materials": 1,
     "vertices": 1581,
     "keyframes": 0,
+    "bboxMin": [
+      -0.80337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.80337,
+      2.35,
+      0.65
+    ],
     "dist": "dist/building_D_withoutBase.glb",
     "img": "dist/building_D_withoutBase.jpg"
   },
@@ -689,6 +1309,16 @@
     "materials": 1,
     "vertices": 1972,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      2.97,
+      1.02042
+    ],
     "dist": "dist/building_D.glb",
     "img": "dist/building_D.jpg"
   },
@@ -700,6 +1330,16 @@
     "materials": 1,
     "vertices": 1236,
     "keyframes": 0,
+    "bboxMin": [
+      -0.60337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.60337,
+      2.35,
+      0.65
+    ],
     "dist": "dist/building_C_withoutBase.glb",
     "img": "dist/building_C_withoutBase.jpg"
   },
@@ -711,6 +1351,16 @@
     "materials": 1,
     "vertices": 1731,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      2.97662,
+      1
+    ],
     "dist": "dist/building_C.glb",
     "img": "dist/building_C.jpg"
   },
@@ -722,6 +1372,16 @@
     "materials": 1,
     "vertices": 1104,
     "keyframes": 0,
+    "bboxMin": [
+      -0.80337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.80337,
+      1.65,
+      0.65
+    ],
     "dist": "dist/building_B_withoutBase.glb",
     "img": "dist/building_B_withoutBase.jpg"
   },
@@ -733,6 +1393,16 @@
     "materials": 1,
     "vertices": 1843,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.65,
+      1
+    ],
     "dist": "dist/building_B.glb",
     "img": "dist/building_B.jpg"
   },
@@ -744,6 +1414,16 @@
     "materials": 1,
     "vertices": 819,
     "keyframes": 0,
+    "bboxMin": [
+      -0.60337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.60337,
+      1.65,
+      0.8
+    ],
     "dist": "dist/building_A_withoutBase.glb",
     "img": "dist/building_A_withoutBase.jpg"
   },
@@ -755,6 +1435,16 @@
     "materials": 1,
     "vertices": 1392,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.65,
+      1
+    ],
     "dist": "dist/building_A.glb",
     "img": "dist/building_A.jpg"
   },
@@ -766,6 +1456,16 @@
     "materials": 1,
     "vertices": 38,
     "keyframes": 0,
+    "bboxMin": [
+      -0.07603,
+      0,
+      -0.07603
+    ],
+    "bboxMax": [
+      0.07603,
+      0.16963,
+      0.07837
+    ],
     "dist": "dist/box_B.glb",
     "img": "dist/box_B.jpg"
   },
@@ -777,6 +1477,16 @@
     "materials": 1,
     "vertices": 64,
     "keyframes": 0,
+    "bboxMin": [
+      -0.1,
+      0,
+      -0.1
+    ],
+    "bboxMax": [
+      0.1,
+      0.1764,
+      0.10308
+    ],
     "dist": "dist/box_A.glb",
     "img": "dist/box_A.jpg"
   },
@@ -788,6 +1498,16 @@
     "materials": 1,
     "vertices": 80,
     "keyframes": 0,
+    "bboxMin": [
+      -0.2,
+      0,
+      -0.075
+    ],
+    "bboxMax": [
+      0.2,
+      0.1,
+      0.075
+    ],
     "dist": "dist/bench.glb",
     "img": "dist/bench.jpg"
   },
@@ -799,6 +1519,16 @@
     "materials": 1,
     "vertices": 96,
     "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
     "dist": "dist/base.glb",
     "img": "dist/base.jpg"
   }
