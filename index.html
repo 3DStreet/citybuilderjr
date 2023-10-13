@@ -35,7 +35,7 @@
         src="https://cdn.glitch.com/e8742440-f85d-495a-8f52-6f066f464880%2FAMB_Suburbs_Afternoon_Woods_Spring_Small_ST_MKH8050-30shortened_amplified.mp3?v=1599596031022"
         crossorigin="anonymous"></audio>
       <a-mixin id="voxel" geometry="primitive: box; height: 0.5; width: 0.5; depth: 0.5" material="shader: standard"
-        set-color-from-state snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5"></a-mixin>
+        set-model-from-state snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5"></a-mixin>
       <a-mixin id="hoverEffect"
         animation__mouseenter="property: components.material.material.color; type: color; from: #444; to: #FFF; dur: 200; startEvents: mouseenter"
         animation__mouseleave="property: components.material.material.color; type: color; from: #FFF; to: #444; dur: 200; startEvents: mouseleave"
@@ -48,12 +48,6 @@
       <img id="logoImg"
         src="https://cdn.glitch.com/04a3ab50-8caa-4927-b1c6-d76f07d1d5cc%2Fcity-builder-jr-logo-min.png?v=1599862475818"
         crossorigin />
-      <img id="atlasImg"
-        src="https://cdn.glitch.com/04a3ab50-8caa-4927-b1c6-d76f07d1d5cc%2FtileAtlas-min.png?v=1599863788199"
-        crossorigin />
-      <a-mixin id="tileAtlas" atlas-uvs="totalRows: 3; totalColumns: 3" material="src: #atlasImg"
-        geometry="primitive: plane; buffer: false; skipCache: true"></a-mixin>
-
     </a-assets>
 
     <a-sky id="bg" radius="30" src="#skyTexture" theta-length="90"
@@ -88,14 +82,16 @@
             sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
         </a-entity>
 
-        <a-entity id="menuWhiteboardTile" position="0 1.1 0" mixin="slice" slice9="height: 1; width: 3; color: #000000">
-          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseTileIndex" class="collidable"
+        <a-entity id="menuWhiteboardModel" position="0 1.1 0" mixin="slice" slice9="height: 1; width: 3; color: #000000">
+          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseModelIndex" class="collidable"
             mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
             sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
-          <a-entity bind__text="value: '\n\n\n\n\n ' + tile.name" mixin="tileAtlas"
-            bind__atlas-uvs="column: tile.atlas[0]; row: tile.atlas[1]" text="color: #111; width: 3; align: center"
-            geometry="primitive: plane" material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
-          <a-triangle proxy-event="event: click; to: a-scene; as: increaseTileIndex" class="collidable"
+
+            <a-entity bind__text="value: '\n\n\n\n\n ' + model.name" bind__material="src: 'url(' + model.img + ')'"
+            geometry="primitive: plane; buffer: false; skipCache: true" text="color: #111; width: 3; align: center"
+            material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
+
+          <a-triangle proxy-event="event: click; to: a-scene; as: increaseModelIndex" class="collidable"
             mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
             sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
         </a-entity>
