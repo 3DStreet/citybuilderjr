@@ -1,0 +1,1535 @@
+[
+  {
+    "name": "watertower",
+    "src": "src/models/kaykit/watertower.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 231,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.24944,
+      0,
+      -0.24944
+    ],
+    "bboxMax": [
+      0.24944,
+      0.67,
+      0.24944
+    ],
+    "dist": "dist/models/watertower.glb",
+    "img": "dist/img/watertower.jpg"
+  },
+  {
+    "name": "tree_E",
+    "src": "src/models/kaykit/tree_E.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 232,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.35965,
+      0,
+      -0.51994
+    ],
+    "bboxMax": [
+      0.52432,
+      1.06844,
+      0.39919
+    ],
+    "dist": "dist/models/tree_E.glb",
+    "img": "dist/img/tree_E.jpg"
+  },
+  {
+    "name": "tree_D",
+    "src": "src/models/kaykit/tree_D.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 262,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.46062,
+      0,
+      -0.55123
+    ],
+    "bboxMax": [
+      0.55563,
+      1.07151,
+      0.4509
+    ],
+    "dist": "dist/models/tree_D.glb",
+    "img": "dist/img/tree_D.jpg"
+  },
+  {
+    "name": "tree_C",
+    "src": "src/models/kaykit/tree_C.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 171,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.59877,
+      0,
+      -0.50242
+    ],
+    "bboxMax": [
+      0.513,
+      1.08662,
+      0.30374
+    ],
+    "dist": "dist/models/tree_C.glb",
+    "img": "dist/img/tree_C.jpg"
+  },
+  {
+    "name": "tree_B",
+    "src": "src/models/kaykit/tree_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 171,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.08797,
+      -0.00222,
+      -0.48997
+    ],
+    "bboxMax": [
+      0.86114,
+      1.08675,
+      0.36058
+    ],
+    "dist": "dist/models/tree_B.glb",
+    "img": "dist/img/tree_B.jpg"
+  },
+  {
+    "name": "tree_A",
+    "src": "src/models/kaykit/tree_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 302,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.47757,
+      0,
+      -0.5468
+    ],
+    "bboxMax": [
+      0.55058,
+      1.18415,
+      0.4326
+    ],
+    "dist": "dist/models/tree_A.glb",
+    "img": "dist/img/tree_A.jpg"
+  },
+  {
+    "name": "trash_B",
+    "src": "src/models/kaykit/trash_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 16,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.02651,
+      0,
+      -0.03237
+    ],
+    "bboxMax": [
+      0.04155,
+      0.04039,
+      0.03847
+    ],
+    "dist": "dist/models/trash_B.glb",
+    "img": "dist/img/trash_B.jpg"
+  },
+  {
+    "name": "trash_A",
+    "src": "src/models/kaykit/trash_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 16,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.06009,
+      0,
+      -0.06665
+    ],
+    "bboxMax": [
+      0.06669,
+      0.05238,
+      0.06665
+    ],
+    "dist": "dist/models/trash_A.glb",
+    "img": "dist/img/trash_A.jpg"
+  },
+  {
+    "name": "trafficlight_C",
+    "src": "src/models/kaykit/trafficlight_C.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 671,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.76403,
+      0.00001,
+      -0.13701
+    ],
+    "bboxMax": [
+      0.03371,
+      0.96949,
+      0.13458
+    ],
+    "dist": "dist/models/trafficlight_C.glb",
+    "img": "dist/img/trafficlight_C.jpg"
+  },
+  {
+    "name": "trafficlight_B",
+    "src": "src/models/kaykit/trafficlight_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 993,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.23921,
+      0.00001,
+      -0.03986
+    ],
+    "bboxMax": [
+      0.03986,
+      0.95992,
+      0.11071
+    ],
+    "dist": "dist/models/trafficlight_B.glb",
+    "img": "dist/img/trafficlight_B.jpg"
+  },
+  {
+    "name": "trafficlight_A",
+    "src": "src/models/kaykit/trafficlight_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 863,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.13458,
+      0.00001,
+      -0.03986
+    ],
+    "bboxMax": [
+      0.03986,
+      0.7295,
+      0.11071
+    ],
+    "dist": "dist/models/trafficlight_A.glb",
+    "img": "dist/img/trafficlight_A.jpg"
+  },
+  {
+    "name": "streetlight_old_single",
+    "src": "src/models/kaykit/streetlight_old_single.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 208,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.06,
+      0,
+      -0.05999
+    ],
+    "bboxMax": [
+      0.06,
+      0.7,
+      0.06001
+    ],
+    "dist": "dist/models/streetlight_old_single.glb",
+    "img": "dist/img/streetlight_old_single.jpg"
+  },
+  {
+    "name": "streetlight_old_double",
+    "src": "src/models/kaykit/streetlight_old_double.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 396,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.16,
+      0,
+      -0.05999
+    ],
+    "bboxMax": [
+      0.16,
+      0.7,
+      0.06001
+    ],
+    "dist": "dist/models/streetlight_old_double.glb",
+    "img": "dist/img/streetlight_old_double.jpg"
+  },
+  {
+    "name": "streetlight",
+    "src": "src/models/kaykit/streetlight.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 190,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.23921,
+      0.00001,
+      -0.03451
+    ],
+    "bboxMax": [
+      0.0301,
+      0.95992,
+      0.03451
+    ],
+    "dist": "dist/models/streetlight.glb",
+    "img": "dist/img/streetlight.jpg"
+  },
+  {
+    "name": "road_tsplit",
+    "src": "src/models/kaykit/road_tsplit.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 210,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_tsplit.glb",
+    "img": "dist/img/road_tsplit.jpg"
+  },
+  {
+    "name": "road_straight_crossing",
+    "src": "src/models/kaykit/road_straight_crossing.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 116,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_straight_crossing.glb",
+    "img": "dist/img/road_straight_crossing.jpg"
+  },
+  {
+    "name": "road_straight",
+    "src": "src/models/kaykit/road_straight.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 104,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_straight.glb",
+    "img": "dist/img/road_straight.jpg"
+  },
+  {
+    "name": "road_junction",
+    "src": "src/models/kaykit/road_junction.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 272,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_junction.glb",
+    "img": "dist/img/road_junction.jpg"
+  },
+  {
+    "name": "road_corner_curved",
+    "src": "src/models/kaykit/road_corner_curved.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 217,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_corner_curved.glb",
+    "img": "dist/img/road_corner_curved.jpg"
+  },
+  {
+    "name": "road_corner",
+    "src": "src/models/kaykit/road_corner.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 203,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/road_corner.glb",
+    "img": "dist/img/road_corner.jpg"
+  },
+  {
+    "name": "park_wall_straight_decorated",
+    "src": "src/models/kaykit/park_wall_straight_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1365,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.01362,
+      0,
+      -1.006
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
+    "dist": "dist/models/park_wall_straight_decorated.glb",
+    "img": "dist/img/park_wall_straight_decorated.jpg"
+  },
+  {
+    "name": "park_wall_straight",
+    "src": "src/models/kaykit/park_wall_straight.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 132,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
+    "dist": "dist/models/park_wall_straight.glb",
+    "img": "dist/img/park_wall_straight.jpg"
+  },
+  {
+    "name": "park_wall_outerCorner_decorated",
+    "src": "src/models/kaykit/park_wall_outerCorner_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1395,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00771,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
+    "dist": "dist/models/park_wall_outerCorner_decorated.glb",
+    "img": "dist/img/park_wall_outerCorner_decorated.jpg"
+  },
+  {
+    "name": "park_wall_outerCorner",
+    "src": "src/models/kaykit/park_wall_outerCorner.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 252,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
+    "dist": "dist/models/park_wall_outerCorner.glb",
+    "img": "dist/img/park_wall_outerCorner.jpg"
+  },
+  {
+    "name": "park_wall_innerCorner_decorated",
+    "src": "src/models/kaykit/park_wall_innerCorner_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1482,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
+    "dist": "dist/models/park_wall_innerCorner_decorated.glb",
+    "img": "dist/img/park_wall_innerCorner_decorated.jpg"
+  },
+  {
+    "name": "park_wall_innerCorner",
+    "src": "src/models/kaykit/park_wall_innerCorner.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 161,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.4,
+      1
+    ],
+    "dist": "dist/models/park_wall_innerCorner.glb",
+    "img": "dist/img/park_wall_innerCorner.jpg"
+  },
+  {
+    "name": "park_wall_entry_decorated",
+    "src": "src/models/kaykit/park_wall_entry_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1026,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.95,
+      1
+    ],
+    "dist": "dist/models/park_wall_entry_decorated.glb",
+    "img": "dist/img/park_wall_entry_decorated.jpg"
+  },
+  {
+    "name": "park_wall_entry",
+    "src": "src/models/kaykit/park_wall_entry.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 379,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.95,
+      1
+    ],
+    "dist": "dist/models/park_wall_entry.glb",
+    "img": "dist/img/park_wall_entry.jpg"
+  },
+  {
+    "name": "park_road_tsplit_decorated",
+    "src": "src/models/kaykit/park_road_tsplit_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 729,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.18675,
+      1
+    ],
+    "dist": "dist/models/park_road_tsplit_decorated.glb",
+    "img": "dist/img/park_road_tsplit_decorated.jpg"
+  },
+  {
+    "name": "park_road_tsplit",
+    "src": "src/models/kaykit/park_road_tsplit.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 103,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/park_road_tsplit.glb",
+    "img": "dist/img/park_road_tsplit.jpg"
+  },
+  {
+    "name": "park_road_straight_decorated_B",
+    "src": "src/models/kaykit/park_road_straight_decorated_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 694,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.8,
+      1
+    ],
+    "dist": "dist/models/park_road_straight_decorated_B.glb",
+    "img": "dist/img/park_road_straight_decorated_B.jpg"
+  },
+  {
+    "name": "park_road_straight_decorated_A",
+    "src": "src/models/kaykit/park_road_straight_decorated_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 742,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.18662,
+      1
+    ],
+    "dist": "dist/models/park_road_straight_decorated_A.glb",
+    "img": "dist/img/park_road_straight_decorated_A.jpg"
+  },
+  {
+    "name": "park_road_straight",
+    "src": "src/models/kaykit/park_road_straight.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 52,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/park_road_straight.glb",
+    "img": "dist/img/park_road_straight.jpg"
+  },
+  {
+    "name": "park_road_junction_decorated_C",
+    "src": "src/models/kaykit/park_road_junction_decorated_C.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 650,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.3,
+      1
+    ],
+    "dist": "dist/models/park_road_junction_decorated_C.glb",
+    "img": "dist/img/park_road_junction_decorated_C.jpg"
+  },
+  {
+    "name": "park_road_junction_decorated_B",
+    "src": "src/models/kaykit/park_road_junction_decorated_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 772,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.33559,
+      1
+    ],
+    "dist": "dist/models/park_road_junction_decorated_B.glb",
+    "img": "dist/img/park_road_junction_decorated_B.jpg"
+  },
+  {
+    "name": "park_road_junction_decorated_A",
+    "src": "src/models/kaykit/park_road_junction_decorated_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 315,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.43654,
+      1
+    ],
+    "dist": "dist/models/park_road_junction_decorated_A.glb",
+    "img": "dist/img/park_road_junction_decorated_A.jpg"
+  },
+  {
+    "name": "park_road_junction",
+    "src": "src/models/kaykit/park_road_junction.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 142,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/park_road_junction.glb",
+    "img": "dist/img/park_road_junction.jpg"
+  },
+  {
+    "name": "park_road_corner_decorated",
+    "src": "src/models/kaykit/park_road_corner_decorated.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 593,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
+    "dist": "dist/models/park_road_corner_decorated.glb",
+    "img": "dist/img/park_road_corner_decorated.jpg"
+  },
+  {
+    "name": "park_road_corner",
+    "src": "src/models/kaykit/park_road_corner.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 88,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/park_road_corner.glb",
+    "img": "dist/img/park_road_corner.jpg"
+  },
+  {
+    "name": "park_base_decorated_trees",
+    "src": "src/models/kaykit/park_base_decorated_trees.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1389,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.28415,
+      1
+    ],
+    "dist": "dist/models/park_base_decorated_trees.glb",
+    "img": "dist/img/park_base_decorated_trees.jpg"
+  },
+  {
+    "name": "park_base_decorated_bushes",
+    "src": "src/models/kaykit/park_base_decorated_bushes.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 285,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.46166,
+      1
+    ],
+    "dist": "dist/models/park_base_decorated_bushes.glb",
+    "img": "dist/img/park_base_decorated_bushes.jpg"
+  },
+  {
+    "name": "park_base",
+    "src": "src/models/kaykit/park_base.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 24,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/park_base.glb",
+    "img": "dist/img/park_base.jpg"
+  },
+  {
+    "name": "firehydrant",
+    "src": "src/models/kaykit/firehydrant.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 218,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.06775,
+      0,
+      -0.0651
+    ],
+    "bboxMax": [
+      0.06775,
+      0.2246,
+      0.06622
+    ],
+    "dist": "dist/models/firehydrant.glb",
+    "img": "dist/img/firehydrant.jpg"
+  },
+  {
+    "name": "dumpster",
+    "src": "src/models/kaykit/dumpster.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 232,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.28297,
+      0,
+      -0.1764
+    ],
+    "bboxMax": [
+      0.28297,
+      0.31728,
+      0.1764
+    ],
+    "dist": "dist/models/dumpster.glb",
+    "img": "dist/img/dumpster.jpg"
+  },
+  {
+    "name": "car_taxi",
+    "src": "src/models/kaykit/car_taxi.gltf",
+    "nodes": 5,
+    "meshes": 5,
+    "materials": 1,
+    "vertices": 1653,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.37343,
+      0.46574
+    ],
+    "dist": "dist/models/car_taxi.glb",
+    "img": "dist/img/car_taxi.jpg"
+  },
+  {
+    "name": "car_stationwagon",
+    "src": "src/models/kaykit/car_stationwagon.gltf",
+    "nodes": 5,
+    "meshes": 5,
+    "materials": 1,
+    "vertices": 1578,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.46574
+    ],
+    "dist": "dist/models/car_stationwagon.glb",
+    "img": "dist/img/car_stationwagon.jpg"
+  },
+  {
+    "name": "car_sedan",
+    "src": "src/models/kaykit/car_sedan.gltf",
+    "nodes": 5,
+    "meshes": 5,
+    "materials": 1,
+    "vertices": 1554,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.46574
+    ],
+    "dist": "dist/models/car_sedan.glb",
+    "img": "dist/img/car_sedan.jpg"
+  },
+  {
+    "name": "car_police",
+    "src": "src/models/kaykit/car_police.gltf",
+    "nodes": 5,
+    "meshes": 5,
+    "materials": 1,
+    "vertices": 1750,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.47233
+    ],
+    "bboxMax": [
+      0.20949,
+      0.35159,
+      0.46574
+    ],
+    "dist": "dist/models/car_police.glb",
+    "img": "dist/img/car_police.jpg"
+  },
+  {
+    "name": "car_hatchback",
+    "src": "src/models/kaykit/car_hatchback.gltf",
+    "nodes": 5,
+    "meshes": 5,
+    "materials": 1,
+    "vertices": 1504,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.20948,
+      -0.06104,
+      -0.39533
+    ],
+    "bboxMax": [
+      0.20949,
+      0.30772,
+      0.41074
+    ],
+    "dist": "dist/models/car_hatchback.glb",
+    "img": "dist/img/car_hatchback.jpg"
+  },
+  {
+    "name": "bush_C",
+    "src": "src/models/kaykit/bush_C.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 29,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.19179,
+      0,
+      -0.2044
+    ],
+    "bboxMax": [
+      0.18873,
+      0.27743,
+      0.18756
+    ],
+    "dist": "dist/models/bush_C.glb",
+    "img": "dist/img/bush_C.jpg"
+  },
+  {
+    "name": "bush_B",
+    "src": "src/models/kaykit/bush_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 31,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.34909,
+      0,
+      -0.34033
+    ],
+    "bboxMax": [
+      0.3294,
+      0.36166,
+      0.32746
+    ],
+    "dist": "dist/models/bush_B.glb",
+    "img": "dist/img/bush_B.jpg"
+  },
+  {
+    "name": "bush_A",
+    "src": "src/models/kaykit/bush_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 29,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.25841,
+      0,
+      -0.27198
+    ],
+    "bboxMax": [
+      0.25146,
+      0.33654,
+      0.24752
+    ],
+    "dist": "dist/models/bush_A.glb",
+    "img": "dist/img/bush_A.jpg"
+  },
+  {
+    "name": "bush",
+    "src": "src/models/kaykit/bush.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 82,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.08946,
+      0,
+      -0.09955
+    ],
+    "bboxMax": [
+      0.0999,
+      0.38053,
+      0.09954
+    ],
+    "dist": "dist/models/bush.glb",
+    "img": "dist/img/bush.jpg"
+  },
+  {
+    "name": "building_H_withoutBase",
+    "src": "src/models/kaykit/building_H_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 2465,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      3.05,
+      0.65
+    ],
+    "dist": "dist/models/building_H_withoutBase.glb",
+    "img": "dist/img/building_H_withoutBase.jpg"
+  },
+  {
+    "name": "building_H",
+    "src": "src/models/kaykit/building_H.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 3336,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      3.05,
+      1
+    ],
+    "dist": "dist/models/building_H.glb",
+    "img": "dist/img/building_H.jpg"
+  },
+  {
+    "name": "building_G_withoutBase",
+    "src": "src/models/kaykit/building_G_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1955,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.8
+    ],
+    "dist": "dist/models/building_G_withoutBase.glb",
+    "img": "dist/img/building_G_withoutBase.jpg"
+  },
+  {
+    "name": "building_G",
+    "src": "src/models/kaykit/building_G.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 2920,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.97635,
+      1
+    ],
+    "dist": "dist/models/building_G.glb",
+    "img": "dist/img/building_G.jpg"
+  },
+  {
+    "name": "building_F_withoutBase",
+    "src": "src/models/kaykit/building_F_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 2019,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.65
+    ],
+    "dist": "dist/models/building_F_withoutBase.glb",
+    "img": "dist/img/building_F_withoutBase.jpg"
+  },
+  {
+    "name": "building_F",
+    "src": "src/models/kaykit/building_F.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 2373,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      1
+    ],
+    "dist": "dist/models/building_F.glb",
+    "img": "dist/img/building_F.jpg"
+  },
+  {
+    "name": "building_E_withoutBase",
+    "src": "src/models/kaykit/building_E_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1762,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      0.8
+    ],
+    "dist": "dist/models/building_E_withoutBase.glb",
+    "img": "dist/img/building_E_withoutBase.jpg"
+  },
+  {
+    "name": "building_E",
+    "src": "src/models/kaykit/building_E.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 2397,
+    "keyframes": 0,
+    "bboxMin": [
+      -1.00337,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1.00337,
+      2.35,
+      1
+    ],
+    "dist": "dist/models/building_E.glb",
+    "img": "dist/img/building_E.jpg"
+  },
+  {
+    "name": "building_D_withoutBase",
+    "src": "src/models/kaykit/building_D_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1581,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.80337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.80337,
+      2.35,
+      0.65
+    ],
+    "dist": "dist/models/building_D_withoutBase.glb",
+    "img": "dist/img/building_D_withoutBase.jpg"
+  },
+  {
+    "name": "building_D",
+    "src": "src/models/kaykit/building_D.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1972,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      2.97,
+      1.02042
+    ],
+    "dist": "dist/models/building_D.glb",
+    "img": "dist/img/building_D.jpg"
+  },
+  {
+    "name": "building_C_withoutBase",
+    "src": "src/models/kaykit/building_C_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1236,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.60337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.60337,
+      2.35,
+      0.65
+    ],
+    "dist": "dist/models/building_C_withoutBase.glb",
+    "img": "dist/img/building_C_withoutBase.jpg"
+  },
+  {
+    "name": "building_C",
+    "src": "src/models/kaykit/building_C.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1731,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      2.97662,
+      1
+    ],
+    "dist": "dist/models/building_C.glb",
+    "img": "dist/img/building_C.jpg"
+  },
+  {
+    "name": "building_B_withoutBase",
+    "src": "src/models/kaykit/building_B_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1104,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.80337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.80337,
+      1.65,
+      0.65
+    ],
+    "dist": "dist/models/building_B_withoutBase.glb",
+    "img": "dist/img/building_B_withoutBase.jpg"
+  },
+  {
+    "name": "building_B",
+    "src": "src/models/kaykit/building_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1843,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.65,
+      1
+    ],
+    "dist": "dist/models/building_B.glb",
+    "img": "dist/img/building_B.jpg"
+  },
+  {
+    "name": "building_A_withoutBase",
+    "src": "src/models/kaykit/building_A_withoutBase.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 819,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.60337,
+      0.09993,
+      -0.65
+    ],
+    "bboxMax": [
+      0.60337,
+      1.65,
+      0.8
+    ],
+    "dist": "dist/models/building_A_withoutBase.glb",
+    "img": "dist/img/building_A_withoutBase.jpg"
+  },
+  {
+    "name": "building_A",
+    "src": "src/models/kaykit/building_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 1392,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      1.65,
+      1
+    ],
+    "dist": "dist/models/building_A.glb",
+    "img": "dist/img/building_A.jpg"
+  },
+  {
+    "name": "box_B",
+    "src": "src/models/kaykit/box_B.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 38,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.07603,
+      0,
+      -0.07603
+    ],
+    "bboxMax": [
+      0.07603,
+      0.16963,
+      0.07837
+    ],
+    "dist": "dist/models/box_B.glb",
+    "img": "dist/img/box_B.jpg"
+  },
+  {
+    "name": "box_A",
+    "src": "src/models/kaykit/box_A.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 64,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.1,
+      0,
+      -0.1
+    ],
+    "bboxMax": [
+      0.1,
+      0.1764,
+      0.10308
+    ],
+    "dist": "dist/models/box_A.glb",
+    "img": "dist/img/box_A.jpg"
+  },
+  {
+    "name": "bench",
+    "src": "src/models/kaykit/bench.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 80,
+    "keyframes": 0,
+    "bboxMin": [
+      -0.2,
+      0,
+      -0.075
+    ],
+    "bboxMax": [
+      0.2,
+      0.1,
+      0.075
+    ],
+    "dist": "dist/models/bench.glb",
+    "img": "dist/img/bench.jpg"
+  },
+  {
+    "name": "base",
+    "src": "src/models/kaykit/base.gltf",
+    "nodes": 1,
+    "meshes": 1,
+    "materials": 1,
+    "vertices": 96,
+    "keyframes": 0,
+    "bboxMin": [
+      -1,
+      0,
+      -1
+    ],
+    "bboxMax": [
+      1,
+      0.1,
+      1
+    ],
+    "dist": "dist/models/base.glb",
+    "img": "dist/img/base.jpg"
+  }
+]
