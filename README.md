@@ -22,9 +22,9 @@ This repo is intended to show an example of a complete gltf pipeline from export
 
 ## Build instructions
 * (0) `npm install`
-* (1) `node gltf-audit -i src` - create initial gltf-audit.json output
-* (2) `node gltf-build -i src -o dist -u` - create optimized glb models
-* (3) `node gltf-screenshots -i ./dist/ -o ./dist/ -u` - create preview images for each glb
+* (1) `node gltf-audit.mjs -i ./src/models` - create initial gltf-audit.json output
+* (2) `node gltf-build.mjs -i ./src/models -o ./dist/models -u` - create optimized glb models
+* (3) `node gltf-screenshots.mjs -i ./dist/models -o ./dist/img -u` - create preview images for each glb
 
 ## gltf utility script description
 

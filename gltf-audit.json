@@ -17,8 +17,8 @@
       0.67,
       0.24944
     ],
-    "dist": "dist/watertower.glb",
-    "img": "dist/watertower.jpg"
+    "dist": "dist/models/watertower.glb",
+    "img": "dist/img/watertower.jpg"
   },
   {
     "name": "tree_E",
@@ -38,8 +38,8 @@
       1.06844,
       0.39919
     ],
-    "dist": "dist/tree_E.glb",
-    "img": "dist/tree_E.jpg"
+    "dist": "dist/models/tree_E.glb",
+    "img": "dist/img/tree_E.jpg"
   },
   {
     "name": "tree_D",
@@ -59,8 +59,8 @@
       1.07151,
       0.4509
     ],
-    "dist": "dist/tree_D.glb",
-    "img": "dist/tree_D.jpg"
+    "dist": "dist/models/tree_D.glb",
+    "img": "dist/img/tree_D.jpg"
   },
   {
     "name": "tree_C",
@@ -80,8 +80,8 @@
       1.08662,
       0.30374
     ],
-    "dist": "dist/tree_C.glb",
-    "img": "dist/tree_C.jpg"
+    "dist": "dist/models/tree_C.glb",
+    "img": "dist/img/tree_C.jpg"
   },
   {
     "name": "tree_B",
@@ -101,8 +101,8 @@
       1.08675,
       0.36058
     ],
-    "dist": "dist/tree_B.glb",
-    "img": "dist/tree_B.jpg"
+    "dist": "dist/models/tree_B.glb",
+    "img": "dist/img/tree_B.jpg"
   },
   {
     "name": "tree_A",
@@ -122,8 +122,8 @@
       1.18415,
       0.4326
     ],
-    "dist": "dist/tree_A.glb",
-    "img": "dist/tree_A.jpg"
+    "dist": "dist/models/tree_A.glb",
+    "img": "dist/img/tree_A.jpg"
   },
   {
     "name": "trash_B",
@@ -143,8 +143,8 @@
       0.04039,
       0.03847
     ],
-    "dist": "dist/trash_B.glb",
-    "img": "dist/trash_B.jpg"
+    "dist": "dist/models/trash_B.glb",
+    "img": "dist/img/trash_B.jpg"
   },
   {
     "name": "trash_A",
@@ -164,8 +164,8 @@
       0.05238,
       0.06665
     ],
-    "dist": "dist/trash_A.glb",
-    "img": "dist/trash_A.jpg"
+    "dist": "dist/models/trash_A.glb",
+    "img": "dist/img/trash_A.jpg"
   },
   {
     "name": "trafficlight_C",
@@ -185,8 +185,8 @@
       0.96949,
       0.13458
     ],
-    "dist": "dist/trafficlight_C.glb",
-    "img": "dist/trafficlight_C.jpg"
+    "dist": "dist/models/trafficlight_C.glb",
+    "img": "dist/img/trafficlight_C.jpg"
   },
   {
     "name": "trafficlight_B",
@@ -206,8 +206,8 @@
       0.95992,
       0.11071
     ],
-    "dist": "dist/trafficlight_B.glb",
-    "img": "dist/trafficlight_B.jpg"
+    "dist": "dist/models/trafficlight_B.glb",
+    "img": "dist/img/trafficlight_B.jpg"
   },
   {
     "name": "trafficlight_A",
@@ -227,8 +227,8 @@
       0.7295,
       0.11071
     ],
-    "dist": "dist/trafficlight_A.glb",
-    "img": "dist/trafficlight_A.jpg"
+    "dist": "dist/models/trafficlight_A.glb",
+    "img": "dist/img/trafficlight_A.jpg"
   },
   {
     "name": "streetlight_old_single",
@@ -248,8 +248,8 @@
       0.7,
       0.06001
     ],
-    "dist": "dist/streetlight_old_single.glb",
-    "img": "dist/streetlight_old_single.jpg"
+    "dist": "dist/models/streetlight_old_single.glb",
+    "img": "dist/img/streetlight_old_single.jpg"
   },
   {
     "name": "streetlight_old_double",
@@ -269,8 +269,8 @@
       0.7,
       0.06001
     ],
-    "dist": "dist/streetlight_old_double.glb",
-    "img": "dist/streetlight_old_double.jpg"
+    "dist": "dist/models/streetlight_old_double.glb",
+    "img": "dist/img/streetlight_old_double.jpg"
   },
   {
     "name": "streetlight",
@@ -290,8 +290,8 @@
       0.95992,
       0.03451
     ],
-    "dist": "dist/streetlight.glb",
-    "img": "dist/streetlight.jpg"
+    "dist": "dist/models/streetlight.glb",
+    "img": "dist/img/streetlight.jpg"
   },
   {
     "name": "road_tsplit",
@@ -311,8 +311,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_tsplit.glb",
-    "img": "dist/road_tsplit.jpg"
+    "dist": "dist/models/road_tsplit.glb",
+    "img": "dist/img/road_tsplit.jpg"
   },
   {
     "name": "road_straight_crossing",
@@ -332,8 +332,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_straight_crossing.glb",
-    "img": "dist/road_straight_crossing.jpg"
+    "dist": "dist/models/road_straight_crossing.glb",
+    "img": "dist/img/road_straight_crossing.jpg"
   },
   {
     "name": "road_straight",
@@ -353,8 +353,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_straight.glb",
-    "img": "dist/road_straight.jpg"
+    "dist": "dist/models/road_straight.glb",
+    "img": "dist/img/road_straight.jpg"
   },
   {
     "name": "road_junction",
@@ -374,8 +374,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_junction.glb",
-    "img": "dist/road_junction.jpg"
+    "dist": "dist/models/road_junction.glb",
+    "img": "dist/img/road_junction.jpg"
   },
   {
     "name": "road_corner_curved",
@@ -395,8 +395,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_corner_curved.glb",
-    "img": "dist/road_corner_curved.jpg"
+    "dist": "dist/models/road_corner_curved.glb",
+    "img": "dist/img/road_corner_curved.jpg"
   },
   {
     "name": "road_corner",
@@ -416,8 +416,8 @@
       0.1,
       1
     ],
-    "dist": "dist/road_corner.glb",
-    "img": "dist/road_corner.jpg"
+    "dist": "dist/models/road_corner.glb",
+    "img": "dist/img/road_corner.jpg"
   },
   {
     "name": "park_wall_straight_decorated",
@@ -437,8 +437,8 @@
       1.28415,
       1
     ],
-    "dist": "dist/park_wall_straight_decorated.glb",
-    "img": "dist/park_wall_straight_decorated.jpg"
+    "dist": "dist/models/park_wall_straight_decorated.glb",
+    "img": "dist/img/park_wall_straight_decorated.jpg"
   },
   {
     "name": "park_wall_straight",
@@ -458,8 +458,8 @@
       0.4,
       1
     ],
-    "dist": "dist/park_wall_straight.glb",
-    "img": "dist/park_wall_straight.jpg"
+    "dist": "dist/models/park_wall_straight.glb",
+    "img": "dist/img/park_wall_straight.jpg"
   },
   {
     "name": "park_wall_outerCorner_decorated",
@@ -479,8 +479,8 @@
       1.28415,
       1
     ],
-    "dist": "dist/park_wall_outerCorner_decorated.glb",
-    "img": "dist/park_wall_outerCorner_decorated.jpg"
+    "dist": "dist/models/park_wall_outerCorner_decorated.glb",
+    "img": "dist/img/park_wall_outerCorner_decorated.jpg"
   },
   {
     "name": "park_wall_outerCorner",
@@ -500,8 +500,8 @@
       0.4,
       1
     ],
-    "dist": "dist/park_wall_outerCorner.glb",
-    "img": "dist/park_wall_outerCorner.jpg"
+    "dist": "dist/models/park_wall_outerCorner.glb",
+    "img": "dist/img/park_wall_outerCorner.jpg"
   },
   {
     "name": "park_wall_innerCorner_decorated",
@@ -521,8 +521,8 @@
       1.28415,
       1
     ],
-    "dist": "dist/park_wall_innerCorner_decorated.glb",
-    "img": "dist/park_wall_innerCorner_decorated.jpg"
+    "dist": "dist/models/park_wall_innerCorner_decorated.glb",
+    "img": "dist/img/park_wall_innerCorner_decorated.jpg"
   },
   {
     "name": "park_wall_innerCorner",
@@ -542,8 +542,8 @@
       0.4,
       1
     ],
-    "dist": "dist/park_wall_innerCorner.glb",
-    "img": "dist/park_wall_innerCorner.jpg"
+    "dist": "dist/models/park_wall_innerCorner.glb",
+    "img": "dist/img/park_wall_innerCorner.jpg"
   },
   {
     "name": "park_wall_entry_decorated",
@@ -563,8 +563,8 @@
       0.95,
       1
     ],
-    "dist": "dist/park_wall_entry_decorated.glb",
-    "img": "dist/park_wall_entry_decorated.jpg"
+    "dist": "dist/models/park_wall_entry_decorated.glb",
+    "img": "dist/img/park_wall_entry_decorated.jpg"
   },
   {
     "name": "park_wall_entry",
@@ -584,8 +584,8 @@
       0.95,
       1
     ],
-    "dist": "dist/park_wall_entry.glb",
-    "img": "dist/park_wall_entry.jpg"
+    "dist": "dist/models/park_wall_entry.glb",
+    "img": "dist/img/park_wall_entry.jpg"
   },
   {
     "name": "park_road_tsplit_decorated",
@@ -605,8 +605,8 @@
       1.18675,
       1
     ],
-    "dist": "dist/park_road_tsplit_decorated.glb",
-    "img": "dist/park_road_tsplit_decorated.jpg"
+    "dist": "dist/models/park_road_tsplit_decorated.glb",
+    "img": "dist/img/park_road_tsplit_decorated.jpg"
   },
   {
     "name": "park_road_tsplit",
@@ -626,8 +626,8 @@
       0.1,
       1
     ],
-    "dist": "dist/park_road_tsplit.glb",
-    "img": "dist/park_road_tsplit.jpg"
+    "dist": "dist/models/park_road_tsplit.glb",
+    "img": "dist/img/park_road_tsplit.jpg"
   },
   {
     "name": "park_road_straight_decorated_B",
@@ -647,8 +647,8 @@
       0.8,
       1
     ],
-    "dist": "dist/park_road_straight_decorated_B.glb",
-    "img": "dist/park_road_straight_decorated_B.jpg"
+    "dist": "dist/models/park_road_straight_decorated_B.glb",
+    "img": "dist/img/park_road_straight_decorated_B.jpg"
   },
   {
     "name": "park_road_straight_decorated_A",
@@ -668,8 +668,8 @@
       1.18662,
       1
     ],
-    "dist": "dist/park_road_straight_decorated_A.glb",
-    "img": "dist/park_road_straight_decorated_A.jpg"
+    "dist": "dist/models/park_road_straight_decorated_A.glb",
+    "img": "dist/img/park_road_straight_decorated_A.jpg"
   },
   {
     "name": "park_road_straight",
@@ -689,8 +689,8 @@
       0.1,
       1
     ],
-    "dist": "dist/park_road_straight.glb",
-    "img": "dist/park_road_straight.jpg"
+    "dist": "dist/models/park_road_straight.glb",
+    "img": "dist/img/park_road_straight.jpg"
   },
   {
     "name": "park_road_junction_decorated_C",
@@ -710,8 +710,8 @@
       0.3,
       1
     ],
-    "dist": "dist/park_road_junction_decorated_C.glb",
-    "img": "dist/park_road_junction_decorated_C.jpg"
+    "dist": "dist/models/park_road_junction_decorated_C.glb",
+    "img": "dist/img/park_road_junction_decorated_C.jpg"
   },
   {
     "name": "park_road_junction_decorated_B",
@@ -731,8 +731,8 @@
       1.33559,
       1
     ],
-    "dist": "dist/park_road_junction_decorated_B.glb",
-    "img": "dist/park_road_junction_decorated_B.jpg"
+    "dist": "dist/models/park_road_junction_decorated_B.glb",
+    "img": "dist/img/park_road_junction_decorated_B.jpg"
   },
   {
     "name": "park_road_junction_decorated_A",
@@ -752,8 +752,8 @@
       0.43654,
       1
     ],
-    "dist": "dist/park_road_junction_decorated_A.glb",
-    "img": "dist/park_road_junction_decorated_A.jpg"
+    "dist": "dist/models/park_road_junction_decorated_A.glb",
+    "img": "dist/img/park_road_junction_decorated_A.jpg"
   },
   {
     "name": "park_road_junction",
@@ -773,8 +773,8 @@
       0.1,
       1
     ],
-    "dist": "dist/park_road_junction.glb",
-    "img": "dist/park_road_junction.jpg"
+    "dist": "dist/models/park_road_junction.glb",
+    "img": "dist/img/park_road_junction.jpg"
   },
   {
     "name": "park_road_corner_decorated",
@@ -794,8 +794,8 @@
       1.28415,
       1
     ],
-    "dist": "dist/park_road_corner_decorated.glb",
-    "img": "dist/park_road_corner_decorated.jpg"
+    "dist": "dist/models/park_road_corner_decorated.glb",
+    "img": "dist/img/park_road_corner_decorated.jpg"
   },
   {
     "name": "park_road_corner",
@@ -815,8 +815,8 @@
       0.1,
       1
     ],
-    "dist": "dist/park_road_corner.glb",
-    "img": "dist/park_road_corner.jpg"
+    "dist": "dist/models/park_road_corner.glb",
+    "img": "dist/img/park_road_corner.jpg"
   },
   {
     "name": "park_base_decorated_trees",
@@ -836,8 +836,8 @@
       1.28415,
       1
     ],
-    "dist": "dist/park_base_decorated_trees.glb",
-    "img": "dist/park_base_decorated_trees.jpg"
+    "dist": "dist/models/park_base_decorated_trees.glb",
+    "img": "dist/img/park_base_decorated_trees.jpg"
   },
   {
     "name": "park_base_decorated_bushes",
@@ -857,8 +857,8 @@
       0.46166,
       1
     ],
-    "dist": "dist/park_base_decorated_bushes.glb",
-    "img": "dist/park_base_decorated_bushes.jpg"
+    "dist": "dist/models/park_base_decorated_bushes.glb",
+    "img": "dist/img/park_base_decorated_bushes.jpg"
   },
   {
     "name": "park_base",
@@ -878,8 +878,8 @@
       0.1,
       1
     ],
-    "dist": "dist/park_base.glb",
-    "img": "dist/park_base.jpg"
+    "dist": "dist/models/park_base.glb",
+    "img": "dist/img/park_base.jpg"
   },
   {
     "name": "firehydrant",
@@ -899,8 +899,8 @@
       0.2246,
       0.06622
     ],
-    "dist": "dist/firehydrant.glb",
-    "img": "dist/firehydrant.jpg"
+    "dist": "dist/models/firehydrant.glb",
+    "img": "dist/img/firehydrant.jpg"
   },
   {
     "name": "dumpster",
@@ -920,8 +920,8 @@
       0.31728,
       0.1764
     ],
-    "dist": "dist/dumpster.glb",
-    "img": "dist/dumpster.jpg"
+    "dist": "dist/models/dumpster.glb",
+    "img": "dist/img/dumpster.jpg"
   },
   {
     "name": "car_taxi",
@@ -941,8 +941,8 @@
       0.37343,
       0.46574
     ],
-    "dist": "dist/car_taxi.glb",
-    "img": "dist/car_taxi.jpg"
+    "dist": "dist/models/car_taxi.glb",
+    "img": "dist/img/car_taxi.jpg"
   },
   {
     "name": "car_stationwagon",
@@ -962,8 +962,8 @@
       0.30772,
       0.46574
     ],
-    "dist": "dist/car_stationwagon.glb",
-    "img": "dist/car_stationwagon.jpg"
+    "dist": "dist/models/car_stationwagon.glb",
+    "img": "dist/img/car_stationwagon.jpg"
   },
   {
     "name": "car_sedan",
@@ -983,8 +983,8 @@
       0.30772,
       0.46574
     ],
-    "dist": "dist/car_sedan.glb",
-    "img": "dist/car_sedan.jpg"
+    "dist": "dist/models/car_sedan.glb",
+    "img": "dist/img/car_sedan.jpg"
   },
   {
     "name": "car_police",
@@ -1004,8 +1004,8 @@
       0.35159,
       0.46574
     ],
-    "dist": "dist/car_police.glb",
-    "img": "dist/car_police.jpg"
+    "dist": "dist/models/car_police.glb",
+    "img": "dist/img/car_police.jpg"
   },
   {
     "name": "car_hatchback",
@@ -1025,8 +1025,8 @@
       0.30772,
       0.41074
     ],
-    "dist": "dist/car_hatchback.glb",
-    "img": "dist/car_hatchback.jpg"
+    "dist": "dist/models/car_hatchback.glb",
+    "img": "dist/img/car_hatchback.jpg"
   },
   {
     "name": "bush_C",
@@ -1046,8 +1046,8 @@
       0.27743,
       0.18756
     ],
-    "dist": "dist/bush_C.glb",
-    "img": "dist/bush_C.jpg"
+    "dist": "dist/models/bush_C.glb",
+    "img": "dist/img/bush_C.jpg"
   },
   {
     "name": "bush_B",
@@ -1067,8 +1067,8 @@
       0.36166,
       0.32746
     ],
-    "dist": "dist/bush_B.glb",
-    "img": "dist/bush_B.jpg"
+    "dist": "dist/models/bush_B.glb",
+    "img": "dist/img/bush_B.jpg"
   },
   {
     "name": "bush_A",
@@ -1088,8 +1088,8 @@
       0.33654,
       0.24752
     ],
-    "dist": "dist/bush_A.glb",
-    "img": "dist/bush_A.jpg"
+    "dist": "dist/models/bush_A.glb",
+    "img": "dist/img/bush_A.jpg"
   },
   {
     "name": "bush",
@@ -1109,8 +1109,8 @@
       0.38053,
       0.09954
     ],
-    "dist": "dist/bush.glb",
-    "img": "dist/bush.jpg"
+    "dist": "dist/models/bush.glb",
+    "img": "dist/img/bush.jpg"
   },
   {
     "name": "building_H_withoutBase",
@@ -1130,8 +1130,8 @@
       3.05,
       0.65
     ],
-    "dist": "dist/building_H_withoutBase.glb",
-    "img": "dist/building_H_withoutBase.jpg"
+    "dist": "dist/models/building_H_withoutBase.glb",
+    "img": "dist/img/building_H_withoutBase.jpg"
   },
   {
     "name": "building_H",
@@ -1151,8 +1151,8 @@
       3.05,
       1
     ],
-    "dist": "dist/building_H.glb",
-    "img": "dist/building_H.jpg"
+    "dist": "dist/models/building_H.glb",
+    "img": "dist/img/building_H.jpg"
   },
   {
     "name": "building_G_withoutBase",
@@ -1172,8 +1172,8 @@
       2.35,
       0.8
     ],
-    "dist": "dist/building_G_withoutBase.glb",
-    "img": "dist/building_G_withoutBase.jpg"
+    "dist": "dist/models/building_G_withoutBase.glb",
+    "img": "dist/img/building_G_withoutBase.jpg"
   },
   {
     "name": "building_G",
@@ -1193,8 +1193,8 @@
       2.97635,
       1
     ],
-    "dist": "dist/building_G.glb",
-    "img": "dist/building_G.jpg"
+    "dist": "dist/models/building_G.glb",
+    "img": "dist/img/building_G.jpg"
   },
   {
     "name": "building_F_withoutBase",
@@ -1214,8 +1214,8 @@
       2.35,
       0.65
     ],
-    "dist": "dist/building_F_withoutBase.glb",
-    "img": "dist/building_F_withoutBase.jpg"
+    "dist": "dist/models/building_F_withoutBase.glb",
+    "img": "dist/img/building_F_withoutBase.jpg"
   },
   {
     "name": "building_F",
@@ -1235,8 +1235,8 @@
       2.35,
       1
     ],
-    "dist": "dist/building_F.glb",
-    "img": "dist/building_F.jpg"
+    "dist": "dist/models/building_F.glb",
+    "img": "dist/img/building_F.jpg"
   },
   {
     "name": "building_E_withoutBase",
@@ -1256,8 +1256,8 @@
       2.35,
       0.8
     ],
-    "dist": "dist/building_E_withoutBase.glb",
-    "img": "dist/building_E_withoutBase.jpg"
+    "dist": "dist/models/building_E_withoutBase.glb",
+    "img": "dist/img/building_E_withoutBase.jpg"
   },
   {
     "name": "building_E",
@@ -1277,8 +1277,8 @@
       2.35,
       1
     ],
-    "dist": "dist/building_E.glb",
-    "img": "dist/building_E.jpg"
+    "dist": "dist/models/building_E.glb",
+    "img": "dist/img/building_E.jpg"
   },
   {
     "name": "building_D_withoutBase",
@@ -1298,8 +1298,8 @@
       2.35,
       0.65
     ],
-    "dist": "dist/building_D_withoutBase.glb",
-    "img": "dist/building_D_withoutBase.jpg"
+    "dist": "dist/models/building_D_withoutBase.glb",
+    "img": "dist/img/building_D_withoutBase.jpg"
   },
   {
     "name": "building_D",
@@ -1319,8 +1319,8 @@
       2.97,
       1.02042
     ],
-    "dist": "dist/building_D.glb",
-    "img": "dist/building_D.jpg"
+    "dist": "dist/models/building_D.glb",
+    "img": "dist/img/building_D.jpg"
   },
   {
     "name": "building_C_withoutBase",
@@ -1340,8 +1340,8 @@
       2.35,
       0.65
     ],
-    "dist": "dist/building_C_withoutBase.glb",
-    "img": "dist/building_C_withoutBase.jpg"
+    "dist": "dist/models/building_C_withoutBase.glb",
+    "img": "dist/img/building_C_withoutBase.jpg"
   },
   {
     "name": "building_C",
@@ -1361,8 +1361,8 @@
       2.97662,
       1
     ],
-    "dist": "dist/building_C.glb",
-    "img": "dist/building_C.jpg"
+    "dist": "dist/models/building_C.glb",
+    "img": "dist/img/building_C.jpg"
   },
   {
     "name": "building_B_withoutBase",
@@ -1382,8 +1382,8 @@
       1.65,
       0.65
     ],
-    "dist": "dist/building_B_withoutBase.glb",
-    "img": "dist/building_B_withoutBase.jpg"
+    "dist": "dist/models/building_B_withoutBase.glb",
+    "img": "dist/img/building_B_withoutBase.jpg"
   },
   {
     "name": "building_B",
@@ -1403,8 +1403,8 @@
       1.65,
       1
     ],
-    "dist": "dist/building_B.glb",
-    "img": "dist/building_B.jpg"
+    "dist": "dist/models/building_B.glb",
+    "img": "dist/img/building_B.jpg"
   },
   {
     "name": "building_A_withoutBase",
@@ -1424,8 +1424,8 @@
       1.65,
       0.8
     ],
-    "dist": "dist/building_A_withoutBase.glb",
-    "img": "dist/building_A_withoutBase.jpg"
+    "dist": "dist/models/building_A_withoutBase.glb",
+    "img": "dist/img/building_A_withoutBase.jpg"
   },
   {
     "name": "building_A",
@@ -1445,8 +1445,8 @@
       1.65,
       1
     ],
-    "dist": "dist/building_A.glb",
-    "img": "dist/building_A.jpg"
+    "dist": "dist/models/building_A.glb",
+    "img": "dist/img/building_A.jpg"
   },
   {
     "name": "box_B",
@@ -1466,8 +1466,8 @@
       0.16963,
       0.07837
     ],
-    "dist": "dist/box_B.glb",
-    "img": "dist/box_B.jpg"
+    "dist": "dist/models/box_B.glb",
+    "img": "dist/img/box_B.jpg"
   },
   {
     "name": "box_A",
@@ -1487,8 +1487,8 @@
       0.1764,
       0.10308
     ],
-    "dist": "dist/box_A.glb",
-    "img": "dist/box_A.jpg"
+    "dist": "dist/models/box_A.glb",
+    "img": "dist/img/box_A.jpg"
   },
   {
     "name": "bench",
@@ -1508,8 +1508,8 @@
       0.1,
       0.075
     ],
-    "dist": "dist/bench.glb",
-    "img": "dist/bench.jpg"
+    "dist": "dist/models/bench.glb",
+    "img": "dist/img/bench.jpg"
   },
   {
     "name": "base",
@@ -1529,7 +1529,7 @@
       0.1,
       1
     ],
-    "dist": "dist/base.glb",
-    "img": "dist/base.jpg"
+    "dist": "dist/models/base.glb",
+    "img": "dist/img/base.jpg"
   }
 ]
