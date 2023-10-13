@@ -11,6 +11,7 @@ import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import { readFile, writeFile } from 'node:fs/promises';
 import { exec } from 'node:child_process';
+import { existsSync, mkdirSync } from 'node:fs';
 
 // Parse command-line arguments
 const argv = yargs(hideBin(process.argv))
@@ -80,6 +81,9 @@ const workspacePath = dirname(fileURLToPath(import.meta.url));
 
 const bar = new SingleBar({}, Presets.shades_classic);
 bar.start(paths.length, 0);
+
+// ensure output path exists, create it if not
+!existsSync(argv.output) && mkdirSync(argv.output, { recursive: true })
 
 // Iterate over all models and process.
 await Promise.all(paths.map((path) => limit(async () => {

@@ -11,6 +11,7 @@ import { dedup, flatten, dequantize, join, weld, resample, prune, sparse, draco 
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import { readFile, writeFile } from 'node:fs/promises';
+import { existsSync, mkdirSync } from 'node:fs';
 
 // Parse command-line arguments
 const argv = yargs(hideBin(process.argv))
@@ -87,6 +88,10 @@ await Promise.all(paths.map((path) => limit(async () => {
 	);
 
 	const name = parse(path).name + '.glb';
+
+	// ensure output path exists, create it if not
+	!existsSync(argv.output) && mkdirSync(argv.output, { recursive: true })
+
 	await io.write(resolve(argv.output, name), document);  // Use provided output directory
 
 	if (argv.update) {
