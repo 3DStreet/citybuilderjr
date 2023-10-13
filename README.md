@@ -21,10 +21,14 @@ Credits:
 This repo is intended to show an example of a complete gltf pipeline from exported gltf file through optimization and screenshot generation and a json file to describe the model library for use in front-end apps.
 
 ## Build instructions
-* (0) `npm install`
-* (1) `node gltf-audit.mjs -i ./src/models` - create initial gltf-audit.json output
-* (2) `node gltf-build.mjs -i ./src/models -o ./dist/models -u` - create optimized glb models
-* (3) `node gltf-screenshots.mjs -i ./dist/models -o ./dist/img -u` - create preview images for each glb
+After running `npm install` then run `npm run gltf:pipeline` to do the full 3 step process of auditing, building and creating screenshots for your source glTF library.
+
+Or, you can run each script separately in this order:
+1. `node gltf-audit.mjs -i ./src/models` - create initial gltf-audit.json output
+2. `node gltf-build.mjs -i ./src/models -o ./dist/models -u` - create optimized glb models
+3. `node gltf-screenshots.mjs -i ./dist/models -o ./dist/img -u` - create preview images for each glb
+
+Each of the 3 scripts above have corresponding npm scripts to be accessed like `npm run gltf:audit`, `npm run gltf:build`, and `npm run gltf:screenshots`. The command `npm run gltf:pipeline` simply runs all 3 in that order.
 
 ## gltf utility script description
 
