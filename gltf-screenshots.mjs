@@ -85,6 +85,8 @@ bar.start(paths.length, 0);
 // ensure output path exists, create it if not
 !existsSync(argv.output) && mkdirSync(argv.output, { recursive: true })
 
+console.log('📸  Taking screenshots...');
+
 // Iterate over all models and process.
 await Promise.all(paths.map((path) => limit(async () => {
 	const document = await io.read(path);

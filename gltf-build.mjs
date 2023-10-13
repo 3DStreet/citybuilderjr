@@ -71,6 +71,8 @@ const workspacePath = dirname(fileURLToPath(import.meta.url));
 const bar = new SingleBar({}, Presets.shades_classic);
 bar.start(paths.length, 0);
 
+console.log('🗜️  Processing models...');
+
 // Iterate over all models and process.
 await Promise.all(paths.map((path) => limit(async () => {
 	const document = await io.read(path);
