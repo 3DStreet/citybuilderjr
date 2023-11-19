@@ -12,7 +12,6 @@
   <a-scene
   xr-mode-ui="XRMode: ar"
   renderer="colorManagement: true;"
-  anchored="persistent: true"
   >
     <a-assets>
       <!-- <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous" /> -->
@@ -59,7 +58,7 @@
       material="shader: standard; color: #F00; opacity: 0.5; " bind__material="color: color.hex"
       sound="src: #click-ogg; on: cursormoved; poolSize: 10;"></a-entity>
 
-    <a-entity id="city-container">
+    <a-entity id="city-container" anchored="persistent: true">
       <a-entity position="0 0.06 0"
         gridhelper="size:5;divisions:20;colorGrid:#660066;colorCenterLine:#FF5555;"></a-entity>
       <a-cylinder id="ground" class="collidable spawnable" radius="32" height="0.1" grid-cursor="allowFrom: .can-select"
