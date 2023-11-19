@@ -4,15 +4,19 @@
   <meta charset="utf-8" />
   <title>City Builder Jr</title>
   <meta name="description" content="Try with a WebXR headset" />
-  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
   <script src="./dist/citybuilderjr.js"></script>
 </head>
 
 <body>
-  <a-scene>
+  <a-scene
+  xr-mode-ui="XRMode: ar"
+  renderer="colorManagement: true;"
+  anchored="persistent: true"
+  >
     <a-assets>
-      <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous" />
-      <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous" />
+      <!-- <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous" /> -->
+      <!-- <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous" /> -->
       <audio id="click-ogg"
         src="https://cdn.glitch.com/e8742440-f85d-495a-8f52-6f066f464880%2Fclick_003.ogg?v=1599273869869"
         crossorigin="anonymous"></audio>
@@ -34,8 +38,8 @@
       <audio id="ambient"
         src="https://cdn.glitch.com/e8742440-f85d-495a-8f52-6f066f464880%2FAMB_Suburbs_Afternoon_Woods_Spring_Small_ST_MKH8050-30shortened_amplified.mp3?v=1599596031022"
         crossorigin="anonymous"></audio>
-      <a-mixin id="voxel" geometry="primitive: box; height: 0.5; width: 0.5; depth: 0.5" material="shader: standard"
-        set-model-from-state snap="offset: 0.25 0.05 0.25; snap: 0.5 0.5 0.5"></a-mixin>
+      <a-mixin id="voxel" scale="0.5 0.5 0.5" geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25" material="shader: standard"
+        set-model-from-state snap="offset: 0.125 0.05 0.125; snap: 0.25 0.25 0.25"></a-mixin>
       <a-mixin id="hoverEffect"
         animation__mouseenter="property: components.material.material.color; type: color; from: #444; to: #FFF; dur: 200; startEvents: mouseenter"
         animation__mouseleave="property: components.material.material.color; type: color; from: #FFF; to: #444; dur: 200; startEvents: mouseleave"
@@ -50,52 +54,54 @@
         crossorigin />
     </a-assets>
 
-    <a-sky id="bg" radius="30" src="#skyTexture" theta-length="90"
-      sound="src: #ambient; positional: false; autoplay: true;"></a-sky>
-
-    <a-entity position="0 0.06 0"
-      gridhelper="size:30;divisions:60;colorGrid:#666666;colorCenterLine:#FF5555;"></a-entity>
-    <a-entity id="cursor" geometry="primitive: box; height: 0.5; width: 0.5; depth: 0.5"
+    <a-entity id="cursor" geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25"
       animation="property: components.material.material.opacity; from: 0.7; to: 0.2; loop: true"
       material="shader: standard; color: #F00; opacity: 0.5; " bind__material="color: color.hex"
       sound="src: #click-ogg; on: cursormoved; poolSize: 10;"></a-entity>
-    <a-cylinder id="ground" class="collidable spawnable" src="#groundTexture" radius="32" height="0.1"
-      grid-cursor="allowFrom: .can-select" sound="src: #select6-ogg; on: click; poolSize: 6;"></a-cylinder>
 
-    <a-entity id="whiteboard" rotation="0 -70 0" position="-0.5 -0.046 -4">
-      <a-entity id="whiteboard-model" scale="0.15 0.15 0.2"
-        gltf-model="src: url(https://cdn.glitch.com/1f272f01-6d82-443d-9bc8-fd11301a5d9e%2Fwhiteboard-gltfpack.glb?v=1599846766103)"></a-entity>
-      <a-entity id="header" scale="2.2 2.2 2.2" position="0.02 1.98 0" rotation="0 90 0" geometry="primitive: plane;"
-        material="src: #logoImg; transparent: true; shader: flat"></a-entity>
+    <a-entity id="city-container">
+      <a-entity position="0 0.06 0"
+        gridhelper="size:5;divisions:20;colorGrid:#660066;colorCenterLine:#FF5555;"></a-entity>
+      <a-cylinder id="ground" class="collidable spawnable" radius="32" height="0.1" grid-cursor="allowFrom: .can-select"
+      material="visible:false"
+        sound="src: #select6-ogg; on: click; poolSize: 6;"></a-cylinder>
 
-      <a-entity></a-entity>
-      <a-entity id="whiteboardMenuSlot" position="0.1 1.4 0" rotation="0 90 0" scale="0.5 0.5 0.5">
-        <a-entity id="menuWhiteboardColor" mixin="slice" slice9="height: 1; width: 3; color: #000000">
-          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseColorIndex" class="collidable"
-            mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
-            sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
-          <a-entity bind__text="value: color.index + '\n' + color.name + '\n' + color.hex"
-            bind__material="color: color.hex" text="color: #111; width: 3; align: center" geometry="primitive: plane"
-            material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
-          <a-triangle proxy-event="event: click; to: a-scene; as: increaseColorIndex" class="collidable"
-            mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
-            sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
-        </a-entity>
+      <a-entity id="whiteboard" rotation="0 -70 0" position="-0.5 -0.046 -4">
+        <a-entity id="whiteboard-model" scale="0.15 0.15 0.2"
+          gltf-model="src: url(https://cdn.glitch.com/1f272f01-6d82-443d-9bc8-fd11301a5d9e%2Fwhiteboard-gltfpack.glb?v=1599846766103)"></a-entity>
+        <a-entity id="header" scale="2.2 2.2 2.2" position="0.02 1.98 0" rotation="0 90 0" geometry="primitive: plane;"
+          material="src: #logoImg; transparent: true; shader: flat"></a-entity>
 
-        <a-entity id="menuWhiteboardModel" position="0 1.1 0" mixin="slice" slice9="height: 1; width: 3; color: #000000">
-          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseModelIndex" class="collidable"
-            mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
-            sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
+        <a-entity></a-entity>
+        <a-entity id="whiteboardMenuSlot" position="0.1 1.4 0" rotation="0 90 0" scale="0.5 0.5 0.5">
+          <a-entity id="menuWhiteboardColor" mixin="slice" slice9="height: 1; width: 3; color: #000000">
+            <a-triangle proxy-event="event: click; to: a-scene; as: decreaseColorIndex" class="collidable"
+              mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
+              sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
+            <a-entity bind__text="value: color.index + '\n' + color.name + '\n' + color.hex"
+              bind__material="color: color.hex" text="color: #111; width: 3; align: center" geometry="primitive: plane"
+              material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
+            <a-triangle proxy-event="event: click; to: a-scene; as: increaseColorIndex" class="collidable"
+              mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
+              sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
+          </a-entity>
+
+          <a-entity id="menuWhiteboardModel" position="0 1.1 0" mixin="slice"
+            slice9="height: 1; width: 3; color: #000000">
+            <a-triangle proxy-event="event: click; to: a-scene; as: decreaseModelIndex" class="collidable"
+              mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
+              sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
 
             <a-entity bind__text="value: '\n\n\n\n\n ' + model.name" bind__material="src: 'url(' + model.img + ')'"
-            geometry="primitive: plane; buffer: false; skipCache: true" text="color: #111; width: 3; align: center"
-            material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
+              geometry="primitive: plane; buffer: false; skipCache: true" text="color: #111; width: 3; align: center"
+              material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
 
-          <a-triangle proxy-event="event: click; to: a-scene; as: increaseModelIndex" class="collidable"
-            mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
-            sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
+            <a-triangle proxy-event="event: click; to: a-scene; as: increaseModelIndex" class="collidable"
+              mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
+              sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
+          </a-entity>
+
         </a-entity>
-
       </a-entity>
     </a-entity>
 

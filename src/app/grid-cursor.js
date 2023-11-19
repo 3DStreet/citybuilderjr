@@ -58,7 +58,7 @@ AFRAME.registerComponent("grid-cursor", {
       return helperVector;
     };
 
-    const snapPos = _snapper(intersection.point, 0.25, 0.5);
+    const snapPos = _snapper(intersection.point, 0.125, 0.25);
 
     // if no change to snapped position, don't move anything
     if (this.oldPos.equals(snapPos)) {
