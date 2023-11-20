@@ -75,24 +75,13 @@ AFRAME.registerComponent("grid-cursor", {
       return worldPosition;
     }
 
-    const intersectPos = intersection.point; // world intersection point
-    // console.log('intersection.point', intersectPos)
-
     const localPos = _worldToLocal(intersection.point); // convert to local intersection point
-    // console.log('worldToLocal Output', localPos)
-
     const localSnapPos = _snapper(localPos, 0.125, 0.25); // use snapping logic which assumes local intersection
-    // console.log('SNAP of worldToLocal Output', localSnapPos)
-
     const snapPos = _convertLocalToWorld(localSnapPos); // world snap position
-    // console.log('local to world output', snapPos)
 
-    // console.log('oldPos', this.oldPos)
-    // console.log('snapPos', snapPos)
-    // if no change to snapped position, don't move anything
-    if (this.oldPos.equals(localSnapPos)) {
+    if (this.oldPos.equals(localSnapPos)) {     // if no change to snapped position, don't move anything
       return;
-    } // use three.js equals method instead of ===
+    }
 
     this.cursorEl.object3D.position.copy(snapPos);
     this.oldPos.copy(localSnapPos);
