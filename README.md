@@ -2,6 +2,8 @@
 ## City building demo project showing gltf to app pipeline using gltf-transform and screenshot-glb.
 <img src="https://github.com/3DStreet/citybuilderjr/assets/470477/b72f5857-32fe-45a3-8252-3670a1e1ea7d" width=300 />
 
+Continuation of https://glitch.com/~aframe-2-vr-menus tile based block editor
+
 Features:
 * Cross platform -- runs in most web browsers across devices.
 * Simple to use -- Click and drag on desktop. Open it on a smartphone and use the device motion sensors. Or [plug in a VR headset](https://immersiveweb.dev/)!
