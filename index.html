@@ -56,7 +56,8 @@
     <a-entity id="cursor" geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25"
       animation="property: components.material.material.opacity; from: 0.7; to: 0.2; loop: true"
       material="shader: standard; color: #F00; opacity: 0.5; " bind__material="color: color.hex"
-      sound="src: #click-ogg; on: cursormoved; poolSize: 10;"></a-entity>
+      sound="src: #click-ogg; on: cursormoved; poolSize: 10;"
+      set-rotation-from-anchor></a-entity>
 
     <a-entity id="city-container" anchored="persistent: true">
       <a-entity position="0 0.06 0"
@@ -65,7 +66,7 @@
       material="visible:false"
         sound="src: #select6-ogg; on: click; poolSize: 6;"></a-cylinder>
 
-      <a-entity id="whiteboard" rotation="0 -70 0" position="-0.5 -0.046 -4">
+      <a-entity id="whiteboard" rotation="0 -70 0" scale="0.8 0.8 0.8" position="-0.5 -0.046 -4">
         <a-entity id="whiteboard-model" scale="0.15 0.15 0.2"
           gltf-model="src: url(https://cdn.glitch.com/1f272f01-6d82-443d-9bc8-fd11301a5d9e%2Fwhiteboard-gltfpack.glb?v=1599846766103)"></a-entity>
         <a-entity id="header" scale="2.2 2.2 2.2" position="0.02 1.98 0" rotation="0 90 0" geometry="primitive: plane;"

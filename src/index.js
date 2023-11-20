@@ -10,4 +10,5 @@ require('./lib/aframe-slice9-component.js')
 require('./app/grid-cursor.js');
 require('./app/intersection-spawn.js');
 require('./app/snap.js');
+require('./app/set-rotation-from-anchor.js');
 require('./app/state.js');
