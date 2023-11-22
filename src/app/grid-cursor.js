@@ -75,7 +75,7 @@ AFRAME.registerComponent("grid-cursor", {
       return worldPosition;
     }
 
-    const localPos = _worldToLocal(intersection.point); // convert to local intersection point
+    const localPos = _worldToLocal(intersection.point); // convert world intersection position to local position
     const localSnapPos = _snapper(localPos, 0.125, 0.25); // use snapping logic which assumes local intersection
     const snapPos = _convertLocalToWorld(localSnapPos); // world snap position
 
