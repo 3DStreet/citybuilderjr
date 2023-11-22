@@ -38,7 +38,7 @@
         src="https://cdn.glitch.com/e8742440-f85d-495a-8f52-6f066f464880%2FAMB_Suburbs_Afternoon_Woods_Spring_Small_ST_MKH8050-30shortened_amplified.mp3?v=1599596031022"
         crossorigin="anonymous"></audio>
       <a-mixin id="voxel" scale="0.5 0.5 0.5" geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25" material="shader: standard"
-        set-model-from-state not-snap="offset: 0.125 0.05 0.125; snap: 0.25 0.25 0.25"></a-mixin>
+        set-model-from-state snap="offset: 0.125; snap: 0.25"></a-mixin>
       <a-mixin id="hoverEffect"
         animation__mouseenter="property: components.material.material.color; type: color; from: #444; to: #FFF; dur: 200; startEvents: mouseenter"
         animation__mouseleave="property: components.material.material.color; type: color; from: #FFF; to: #444; dur: 200; startEvents: mouseleave"
@@ -59,12 +59,13 @@
       sound="src: #click-ogg; on: cursormoved; poolSize: 10;"
       set-rotation-from-anchor></a-entity>
 
+    <!-- <a-entity id="world-grid"
+      gridhelper="size:5;divisions:10;colorGrid:#000000;colorCenterLine:#222222;"></a-entity> -->
+
     <a-entity id="city-container" anchored="persistent: true">
-      <a-entity position="0 0.06 0"
+      <a-entity id="ground" grid-cursor="allowFrom: .can-select" sound="src: #select6-ogg; on: click; poolSize: 6;"
+        geometry="primitive: box; height: 0.1; width: 5; depth: 5;" class="collidable spawnable" material="visible:false"
         gridhelper="size:5;divisions:20;colorGrid:#660066;colorCenterLine:#FF5555;"></a-entity>
-      <a-cylinder id="ground" class="collidable spawnable" radius="32" height="0.1" grid-cursor="allowFrom: .can-select"
-      material="visible:false"
-        sound="src: #select6-ogg; on: click; poolSize: 6;"></a-cylinder>
 
       <a-entity id="whiteboard" rotation="0 -70 0" scale="0.8 0.8 0.8" position="-0.5 -0.046 -4">
         <a-entity id="whiteboard-model" scale="0.15 0.15 0.2"
