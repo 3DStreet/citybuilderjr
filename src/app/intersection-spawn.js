@@ -15,7 +15,6 @@ AFRAME.registerComponent('intersection-spawn', {
     const data = this.data;
     const el = this.el;
     this.helperVector = new THREE.Vector3();
-    this.targetEl = document.querySelector('#city-container');
 
     el.addEventListener(data.event, evt => {
       // don't spawn if class specified in objects property but it is not matched intersected element
@@ -23,9 +22,6 @@ AFRAME.registerComponent('intersection-spawn', {
 
       // Create element.
       const spawnEl = document.createElement('a-entity');
-
-      // // Snap intersection point to grid and offset from center.
-      // spawnEl.setAttribute('position', evt.detail.intersection.point);
 
       // Set components and properties.
       Object.keys(data).forEach(name => {
@@ -40,10 +36,10 @@ AFRAME.registerComponent('intersection-spawn', {
         targetEl.object3D.worldToLocal(helperVector);
         return helperVector;
       };
-
-      const localPos = _worldToLocal(evt.detail.intersection.point, this.targetEl); // convert world intersection position to local position
+      const targetEl = evt.detail.intersection.object.el;
+      const localPos = _worldToLocal(evt.detail.intersection.point, targetEl); // convert world intersection position to local position
       spawnEl.setAttribute('position', localPos)
-      this.targetEl.appendChild(spawnEl);
+      targetEl.appendChild(spawnEl);
 
     });
   }
