@@ -71,25 +71,25 @@ AFRAME.registerState({
         'img': payload.img
       }
     }
-/*
+    /* example usage of `addModel` handler
       var payload =   {
-    "name": "tree_E",
-    "src": "src/models/kaykit/tree_E.gltf",
-    "bboxMin": [
-      -0.35965,
-      0,
-      -0.51994
-    ],
-    "bboxMax": [
-      0.52432,
-      1.06844,
-      0.39919
-    ],
-    "dist": "dist/models/tree_E.glb",
-    "img": "dist/img/tree_E.jpg"
-  },
+        "name": "tree_E",
+        "src": "src/models/kaykit/tree_E.gltf",
+        "bboxMin": [
+          -0.35965,
+          0,
+          -0.51994
+        ],
+        "bboxMax": [
+          0.52432,
+          1.06844,
+          0.39919
+        ],
+        "dist": "dist/models/tree_E.glb",
+        "img": "dist/img/tree_E.jpg"
+      },
       AFRAME.scenes[0].emit('addModel', payload);
-      */
+    */
 
   },
   computeState: function (newState, payload) {
