@@ -127,6 +127,23 @@ function getModelPathFromState(state) {
 }
 
 /**
+ * Load models from catalog json
+ */
+AFRAME.registerComponent('load-catalog', {
+  schema: {
+    source: {type: 'selector'}
+  },
+  init: function () {
+    this.jsonCatalogData = JSON.parse(this.data.source.data);
+    console.log(this.jsonCatalogData)
+    for (let i = 0; i < this.jsonCatalogData.length; i++) {
+      const modelMetadataObject = this.jsonCatalogData[i];
+      AFRAME.scenes[0].emit('addModel', modelMetadataObject);
+    }
+  }
+});
+
+/**
  * Set color for material based on current index from state
  */
 AFRAME.registerComponent('set-color-from-state', {

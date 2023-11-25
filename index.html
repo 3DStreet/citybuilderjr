@@ -12,8 +12,10 @@
   <a-scene
   xr-mode-ui="XRMode: ar"
   renderer="colorManagement: true;"
+  load-catalog="source: #catalog"
   >
     <a-assets>
+      <a-asset-item id="catalog" src="catalog.json"></a-asset-item>
       <!-- <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous" /> -->
       <!-- <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous" /> -->
       <audio id="click-ogg"
