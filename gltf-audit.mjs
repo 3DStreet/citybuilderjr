@@ -59,11 +59,11 @@ for await (const [path, document] of documentPromises) {
     const entry = {
 		name: basename(path, extname(path)), // Gets the basename without extension
 		src: path.substring(workspacePath.length + 1), // source gltf file path relative to current directory
-        nodes: document.getRoot().listNodes().length,
-        meshes: sum(report.meshes, 'primitives'),
-        materials: document.getRoot().listMaterials().length,
-        vertices: sum(report.meshes, 'vertices'),
-        keyframes: sum(report.animations, 'keyframes'),
+        // nodes: document.getRoot().listNodes().length,
+        // meshes: sum(report.meshes, 'primitives'),
+        // materials: document.getRoot().listMaterials().length,
+        // vertices: sum(report.meshes, 'vertices'),
+        // keyframes: sum(report.animations, 'keyframes'),
         bboxMin: report.scenes.properties[0].bboxMin,
         bboxMax: report.scenes.properties[0].bboxMax,
     };
@@ -75,9 +75,9 @@ bar.stop();
 
 // Write output
 
-console.log('🗄️  Writing gltf-audit.json...');
+console.log('🗄️  Writing catalog.json...');
 
-await writeFile(resolve(workspacePath, 'gltf-audit.json'), JSON.stringify(reportData, null, 2));
+await writeFile(resolve(workspacePath, 'catalog.json'), JSON.stringify(reportData, null, 2));
 
 console.log('🍻  Done!');
 

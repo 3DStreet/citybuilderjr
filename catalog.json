@@ -2,11 +2,6 @@
   {
     "name": "watertower",
     "src": "src/models/kaykit/watertower.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 231,
-    "keyframes": 0,
     "bboxMin": [
       -0.24944,
       0,
@@ -23,11 +18,6 @@
   {
     "name": "tree_E",
     "src": "src/models/kaykit/tree_E.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 232,
-    "keyframes": 0,
     "bboxMin": [
       -0.35965,
       0,
@@ -44,11 +34,6 @@
   {
     "name": "tree_D",
     "src": "src/models/kaykit/tree_D.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 262,
-    "keyframes": 0,
     "bboxMin": [
       -0.46062,
       0,
@@ -65,11 +50,6 @@
   {
     "name": "tree_C",
     "src": "src/models/kaykit/tree_C.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 171,
-    "keyframes": 0,
     "bboxMin": [
       -0.59877,
       0,
@@ -86,11 +66,6 @@
   {
     "name": "tree_B",
     "src": "src/models/kaykit/tree_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 171,
-    "keyframes": 0,
     "bboxMin": [
       -0.08797,
       -0.00222,
@@ -107,11 +82,6 @@
   {
     "name": "tree_A",
     "src": "src/models/kaykit/tree_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 302,
-    "keyframes": 0,
     "bboxMin": [
       -0.47757,
       0,
@@ -128,11 +98,6 @@
   {
     "name": "trash_B",
     "src": "src/models/kaykit/trash_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 16,
-    "keyframes": 0,
     "bboxMin": [
       -0.02651,
       0,
@@ -149,11 +114,6 @@
   {
     "name": "trash_A",
     "src": "src/models/kaykit/trash_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 16,
-    "keyframes": 0,
     "bboxMin": [
       -0.06009,
       0,
@@ -170,11 +130,6 @@
   {
     "name": "trafficlight_C",
     "src": "src/models/kaykit/trafficlight_C.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 671,
-    "keyframes": 0,
     "bboxMin": [
       -0.76403,
       0.00001,
@@ -191,11 +146,6 @@
   {
     "name": "trafficlight_B",
     "src": "src/models/kaykit/trafficlight_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 993,
-    "keyframes": 0,
     "bboxMin": [
       -0.23921,
       0.00001,
@@ -212,11 +162,6 @@
   {
     "name": "trafficlight_A",
     "src": "src/models/kaykit/trafficlight_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 863,
-    "keyframes": 0,
     "bboxMin": [
       -0.13458,
       0.00001,
@@ -233,11 +178,6 @@
   {
     "name": "streetlight_old_single",
     "src": "src/models/kaykit/streetlight_old_single.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 208,
-    "keyframes": 0,
     "bboxMin": [
       -0.06,
       0,
@@ -254,11 +194,6 @@
   {
     "name": "streetlight_old_double",
     "src": "src/models/kaykit/streetlight_old_double.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 396,
-    "keyframes": 0,
     "bboxMin": [
       -0.16,
       0,
@@ -275,11 +210,6 @@
   {
     "name": "streetlight",
     "src": "src/models/kaykit/streetlight.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 190,
-    "keyframes": 0,
     "bboxMin": [
       -0.23921,
       0.00001,
@@ -296,11 +226,6 @@
   {
     "name": "road_tsplit",
     "src": "src/models/kaykit/road_tsplit.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 210,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -317,11 +242,6 @@
   {
     "name": "road_straight_crossing",
     "src": "src/models/kaykit/road_straight_crossing.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 116,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -338,11 +258,6 @@
   {
     "name": "road_straight",
     "src": "src/models/kaykit/road_straight.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 104,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -359,11 +274,6 @@
   {
     "name": "road_junction",
     "src": "src/models/kaykit/road_junction.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 272,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -380,11 +290,6 @@
   {
     "name": "road_corner_curved",
     "src": "src/models/kaykit/road_corner_curved.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 217,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -401,11 +306,6 @@
   {
     "name": "road_corner",
     "src": "src/models/kaykit/road_corner.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 203,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -422,11 +322,6 @@
   {
     "name": "park_wall_straight_decorated",
     "src": "src/models/kaykit/park_wall_straight_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1365,
-    "keyframes": 0,
     "bboxMin": [
       -1.01362,
       0,
@@ -443,11 +338,6 @@
   {
     "name": "park_wall_straight",
     "src": "src/models/kaykit/park_wall_straight.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 132,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -464,11 +354,6 @@
   {
     "name": "park_wall_outerCorner_decorated",
     "src": "src/models/kaykit/park_wall_outerCorner_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1395,
-    "keyframes": 0,
     "bboxMin": [
       -1.00771,
       0,
@@ -485,11 +370,6 @@
   {
     "name": "park_wall_outerCorner",
     "src": "src/models/kaykit/park_wall_outerCorner.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 252,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -506,11 +386,6 @@
   {
     "name": "park_wall_innerCorner_decorated",
     "src": "src/models/kaykit/park_wall_innerCorner_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1482,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -527,11 +402,6 @@
   {
     "name": "park_wall_innerCorner",
     "src": "src/models/kaykit/park_wall_innerCorner.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 161,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -548,11 +418,6 @@
   {
     "name": "park_wall_entry_decorated",
     "src": "src/models/kaykit/park_wall_entry_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1026,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -569,11 +434,6 @@
   {
     "name": "park_wall_entry",
     "src": "src/models/kaykit/park_wall_entry.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 379,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -590,11 +450,6 @@
   {
     "name": "park_road_tsplit_decorated",
     "src": "src/models/kaykit/park_road_tsplit_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 729,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -611,11 +466,6 @@
   {
     "name": "park_road_tsplit",
     "src": "src/models/kaykit/park_road_tsplit.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 103,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -632,11 +482,6 @@
   {
     "name": "park_road_straight_decorated_B",
     "src": "src/models/kaykit/park_road_straight_decorated_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 694,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -653,11 +498,6 @@
   {
     "name": "park_road_straight_decorated_A",
     "src": "src/models/kaykit/park_road_straight_decorated_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 742,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -674,11 +514,6 @@
   {
     "name": "park_road_straight",
     "src": "src/models/kaykit/park_road_straight.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 52,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -695,11 +530,6 @@
   {
     "name": "park_road_junction_decorated_C",
     "src": "src/models/kaykit/park_road_junction_decorated_C.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 650,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -716,11 +546,6 @@
   {
     "name": "park_road_junction_decorated_B",
     "src": "src/models/kaykit/park_road_junction_decorated_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 772,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -737,11 +562,6 @@
   {
     "name": "park_road_junction_decorated_A",
     "src": "src/models/kaykit/park_road_junction_decorated_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 315,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -758,11 +578,6 @@
   {
     "name": "park_road_junction",
     "src": "src/models/kaykit/park_road_junction.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 142,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -779,11 +594,6 @@
   {
     "name": "park_road_corner_decorated",
     "src": "src/models/kaykit/park_road_corner_decorated.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 593,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -800,11 +610,6 @@
   {
     "name": "park_road_corner",
     "src": "src/models/kaykit/park_road_corner.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 88,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -821,11 +626,6 @@
   {
     "name": "park_base_decorated_trees",
     "src": "src/models/kaykit/park_base_decorated_trees.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1389,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -842,11 +642,6 @@
   {
     "name": "park_base_decorated_bushes",
     "src": "src/models/kaykit/park_base_decorated_bushes.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 285,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -863,11 +658,6 @@
   {
     "name": "park_base",
     "src": "src/models/kaykit/park_base.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 24,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -884,11 +674,6 @@
   {
     "name": "firehydrant",
     "src": "src/models/kaykit/firehydrant.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 218,
-    "keyframes": 0,
     "bboxMin": [
       -0.06775,
       0,
@@ -905,11 +690,6 @@
   {
     "name": "dumpster",
     "src": "src/models/kaykit/dumpster.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 232,
-    "keyframes": 0,
     "bboxMin": [
       -0.28297,
       0,
@@ -926,11 +706,6 @@
   {
     "name": "car_taxi",
     "src": "src/models/kaykit/car_taxi.gltf",
-    "nodes": 5,
-    "meshes": 5,
-    "materials": 1,
-    "vertices": 1653,
-    "keyframes": 0,
     "bboxMin": [
       -0.20948,
       -0.06104,
@@ -947,11 +722,6 @@
   {
     "name": "car_stationwagon",
     "src": "src/models/kaykit/car_stationwagon.gltf",
-    "nodes": 5,
-    "meshes": 5,
-    "materials": 1,
-    "vertices": 1578,
-    "keyframes": 0,
     "bboxMin": [
       -0.20948,
       -0.06104,
@@ -968,11 +738,6 @@
   {
     "name": "car_sedan",
     "src": "src/models/kaykit/car_sedan.gltf",
-    "nodes": 5,
-    "meshes": 5,
-    "materials": 1,
-    "vertices": 1554,
-    "keyframes": 0,
     "bboxMin": [
       -0.20948,
       -0.06104,
@@ -989,11 +754,6 @@
   {
     "name": "car_police",
     "src": "src/models/kaykit/car_police.gltf",
-    "nodes": 5,
-    "meshes": 5,
-    "materials": 1,
-    "vertices": 1750,
-    "keyframes": 0,
     "bboxMin": [
       -0.20948,
       -0.06104,
@@ -1010,11 +770,6 @@
   {
     "name": "car_hatchback",
     "src": "src/models/kaykit/car_hatchback.gltf",
-    "nodes": 5,
-    "meshes": 5,
-    "materials": 1,
-    "vertices": 1504,
-    "keyframes": 0,
     "bboxMin": [
       -0.20948,
       -0.06104,
@@ -1031,11 +786,6 @@
   {
     "name": "bush_C",
     "src": "src/models/kaykit/bush_C.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 29,
-    "keyframes": 0,
     "bboxMin": [
       -0.19179,
       0,
@@ -1052,11 +802,6 @@
   {
     "name": "bush_B",
     "src": "src/models/kaykit/bush_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 31,
-    "keyframes": 0,
     "bboxMin": [
       -0.34909,
       0,
@@ -1073,11 +818,6 @@
   {
     "name": "bush_A",
     "src": "src/models/kaykit/bush_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 29,
-    "keyframes": 0,
     "bboxMin": [
       -0.25841,
       0,
@@ -1094,11 +834,6 @@
   {
     "name": "bush",
     "src": "src/models/kaykit/bush.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 82,
-    "keyframes": 0,
     "bboxMin": [
       -0.08946,
       0,
@@ -1115,11 +850,6 @@
   {
     "name": "building_H_withoutBase",
     "src": "src/models/kaykit/building_H_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 2465,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0.09993,
@@ -1136,11 +866,6 @@
   {
     "name": "building_H",
     "src": "src/models/kaykit/building_H.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 3336,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0,
@@ -1157,11 +882,6 @@
   {
     "name": "building_G_withoutBase",
     "src": "src/models/kaykit/building_G_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1955,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0.09993,
@@ -1178,11 +898,6 @@
   {
     "name": "building_G",
     "src": "src/models/kaykit/building_G.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 2920,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0,
@@ -1199,11 +914,6 @@
   {
     "name": "building_F_withoutBase",
     "src": "src/models/kaykit/building_F_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 2019,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0.09993,
@@ -1220,11 +930,6 @@
   {
     "name": "building_F",
     "src": "src/models/kaykit/building_F.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 2373,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0,
@@ -1241,11 +946,6 @@
   {
     "name": "building_E_withoutBase",
     "src": "src/models/kaykit/building_E_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1762,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0.09993,
@@ -1262,11 +962,6 @@
   {
     "name": "building_E",
     "src": "src/models/kaykit/building_E.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 2397,
-    "keyframes": 0,
     "bboxMin": [
       -1.00337,
       0,
@@ -1283,11 +978,6 @@
   {
     "name": "building_D_withoutBase",
     "src": "src/models/kaykit/building_D_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1581,
-    "keyframes": 0,
     "bboxMin": [
       -0.80337,
       0.09993,
@@ -1304,11 +994,6 @@
   {
     "name": "building_D",
     "src": "src/models/kaykit/building_D.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1972,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -1325,11 +1010,6 @@
   {
     "name": "building_C_withoutBase",
     "src": "src/models/kaykit/building_C_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1236,
-    "keyframes": 0,
     "bboxMin": [
       -0.60337,
       0.09993,
@@ -1346,11 +1026,6 @@
   {
     "name": "building_C",
     "src": "src/models/kaykit/building_C.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1731,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -1367,11 +1042,6 @@
   {
     "name": "building_B_withoutBase",
     "src": "src/models/kaykit/building_B_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1104,
-    "keyframes": 0,
     "bboxMin": [
       -0.80337,
       0.09993,
@@ -1388,11 +1058,6 @@
   {
     "name": "building_B",
     "src": "src/models/kaykit/building_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1843,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -1409,11 +1074,6 @@
   {
     "name": "building_A_withoutBase",
     "src": "src/models/kaykit/building_A_withoutBase.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 819,
-    "keyframes": 0,
     "bboxMin": [
       -0.60337,
       0.09993,
@@ -1430,11 +1090,6 @@
   {
     "name": "building_A",
     "src": "src/models/kaykit/building_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 1392,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,
@@ -1451,11 +1106,6 @@
   {
     "name": "box_B",
     "src": "src/models/kaykit/box_B.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 38,
-    "keyframes": 0,
     "bboxMin": [
       -0.07603,
       0,
@@ -1472,11 +1122,6 @@
   {
     "name": "box_A",
     "src": "src/models/kaykit/box_A.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 64,
-    "keyframes": 0,
     "bboxMin": [
       -0.1,
       0,
@@ -1493,11 +1138,6 @@
   {
     "name": "bench",
     "src": "src/models/kaykit/bench.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 80,
-    "keyframes": 0,
     "bboxMin": [
       -0.2,
       0,
@@ -1514,11 +1154,6 @@
   {
     "name": "base",
     "src": "src/models/kaykit/base.gltf",
-    "nodes": 1,
-    "meshes": 1,
-    "materials": 1,
-    "vertices": 96,
-    "keyframes": 0,
     "bboxMin": [
       -1,
       0,

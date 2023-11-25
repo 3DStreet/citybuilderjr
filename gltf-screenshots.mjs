@@ -27,7 +27,7 @@ const argv = yargs(hideBin(process.argv))
     })
 	.option('update', {
 		alias: 'u',
-		description: 'Update gltf-audit.json with new paths',
+		description: 'Update catalog.json with new paths',
 		type: 'boolean',
 	})
     .demandOption(['input', 'output'], 'Please provide both input and output paths')
@@ -50,13 +50,13 @@ const io = new NodeIO()
 
 let auditData = [];
 
-// Check if the update flag is provided and read the existing gltf-audit.json
+// Check if the update flag is provided and read the existing catalog.json
 if (argv.update) {
     try {
-        const rawAudit = await readFile('gltf-audit.json', 'utf8');
+        const rawAudit = await readFile('catalog.json', 'utf8');
         auditData = JSON.parse(rawAudit);
     } catch (error) {
-        console.error("Failed to read gltf-audit.json. Make sure the file exists.");
+        console.error("Failed to read catalog.json. Make sure the file exists.");
         process.exit(1);
     }
 }
@@ -108,7 +108,7 @@ await Promise.all(paths.map((path) => limit(async () => {
 })));
 
 if (argv.update) {
-    await writeFile('gltf-audit.json', JSON.stringify(auditData, null, 2));
+    await writeFile('catalog.json', JSON.stringify(auditData, null, 2));
 }
 
 bar.stop();
