@@ -25,7 +25,7 @@ AFRAME.registerComponent('intersection-spawn', {
 
       // Set components and properties.
       Object.keys(data).forEach(name => {
-        if (name === 'event' || name === 'objects') { return; }
+        if (['event', 'objects', 'gridSize', 'gridDivisions'].includes(name)) { return; }
         AFRAME.utils.entity.setComponentProperty(spawnEl, name, data[name]); // is setAttribute a new version of "set component property"?
       });
 
@@ -38,9 +38,30 @@ AFRAME.registerComponent('intersection-spawn', {
       };
       const targetEl = evt.detail.intersection.object.el;
       const localPos = _worldToLocal(evt.detail.intersection.point, targetEl); // convert world intersection position to local position
+      console.log('Local Position:', localPos);
       spawnEl.setAttribute('position', localPos)
       targetEl.appendChild(spawnEl);
+      const gridPos = this.localToStateGrid(localPos, data.gridSize, data.gridDivisions);
+      console.log('Grid Position:', gridPos);
+    })
+  },
+    // Convert local grid position to long / lat state grid coordinates
+    localToStateGrid: function (localPos, gridSize, gridDivisions) {
+    // grid divisions (# of cells) ie 20 divisions
+    // grid size (meter) ie 5 meters
+    // cellsPerMeter: gridDivisions / gridSize = 4 cells per meter
+    const cellsPerMeter = gridDivisions / gridSize;
+    console.log(`cellsPerMeter: ${cellsPerMeter}`);
+    const gridLong = localPos.x * cellsPerMeter;
+    const gridLat = localPos.z * cellsPerMeter * -1; // A-Frame uses 'z' for depth/forward, we reverse so positive longitude is forward
+    console.log(`Converted Lat Y: ${gridLat}, Grid Long X: ${gridLong}`);
+    const gridLatRounded = Math.round(gridLat);
+    const gridLongRounded = Math.round(gridLong);
+    console.log(`Rounded Lat Y: ${gridLatRounded}, Grid Long X: ${gridLongRounded}`)
+    return {
+      x: gridLongRounded,
+      y: gridLatRounded
+    };
 
-    });
   }
 });

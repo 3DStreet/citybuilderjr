@@ -15,7 +15,7 @@
   load-catalog="source: #catalog"
   >
     <a-assets>
-      <a-asset-item id="catalog" src="catalog.json"></a-asset-item>
+      <a-asset-item id="catalog" src="./catalog.json"></a-asset-item>
       <!-- <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" crossorigin="anonymous" /> -->
       <!-- <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" crossorigin="anonymous" /> -->
       <audio id="click-ogg"
@@ -114,11 +114,11 @@
     <a-entity id="rig">
       <a-camera look-controls="touchEnabled: false">
         <a-entity id="camera-ray" class="can-select" raycaster="objects: .collidable" cursor="rayOrigin: mouse"
-          intersection-spawn="event: click; mixin: voxel; objects: spawnable"></a-entity>
+          intersection-spawn="event: click; mixin: voxel; objects: spawnable; gridSize:5; gridDivisions:20;"></a-entity>
       </a-camera>
       <a-entity id="leftHand" laser-controls="hand: left" raycaster="objects: .collidable"></a-entity>
       <a-entity id="rightHand" laser-controls="hand: right" raycaster="objects: .collidable"
-        intersection-spawn="event: click; mixin: voxel; objects: spawnable" class="can-select">
+        intersection-spawn="event: click; mixin: voxel; objects: spawnable; gridSize:5; gridDivisions:20;" class="can-select">
         <a-entity id="menuHand" scale="0.1 0.1 0.1" look-at="#camera-ray" position="0 0 0.2" mixin="slice"
           slice9="height: 1; width: 3; color: #777777">
           <a-triangle proxy-event="event: click; to: a-scene; as: decreaseColorIndex" class="collidable"
