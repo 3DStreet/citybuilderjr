@@ -209,7 +209,7 @@ AFRAME.registerComponent('set-model-from-state', {
   },
   update: function () {
     if (this.runOnce) {
-      this.el.setAttribute('gltf-model', 'src: url(' + getModelPathFromState(AFRAME.scenes[0].systems.state.state) + ')');
+      this.el.setAttribute('gltf-model', 'url(./' + getModelPathFromState(AFRAME.scenes[0].systems.state.state) + ')');
       this.el.setAttribute('scale', '0.125 0.125 0.125');
       this.runOnce = false;
     }
