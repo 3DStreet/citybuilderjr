@@ -53,7 +53,7 @@ AFRAME.registerComponent('intersection-spawn', {
     const cellsPerMeter = gridDivisions / gridSize;
     console.log(`cellsPerMeter: ${cellsPerMeter}`);
     const gridLong = localPos.x * cellsPerMeter;
-    const gridLat = localPos.z * cellsPerMeter * -1; // A-Frame uses 'z' for depth/forward, we reverse so positive longitude is forward
+    const gridLat = localPos.z * cellsPerMeter * -1; // A-Frame uses 'z' for depth/forward, we reverse so positive latitude is forward
     console.log(`Converted Lat Y: ${gridLat}, Grid Long X: ${gridLong}`);
     const gridLatRounded = Math.round(gridLat);
     const gridLongRounded = Math.round(gridLong);
