@@ -106,9 +106,19 @@ AFRAME.registerState({
     addGridObject: function (state, payload) {
       console.log('Adding Grid Object:', payload);
 
-      const { lon, lat, model, rotation, elevation } = payload;
+      let { lon, lat, model, rotation, elevation } = payload;
       const key = `${lon},${lat}`;
 
+      if (!model) {
+        model = getModelNameFromState(state);
+      }
+      if (!rotation) {
+        rotation = 0;
+      }
+      if (!elevation) {
+        elevation = 0;
+      }
+      console.log('model', model);
       // Prevent modification of City Hall cells
       if (!['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
         state.grid[key] = { model, rotation, elevation };
