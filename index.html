@@ -13,6 +13,7 @@
   xr-mode-ui="XRMode: ar"
   renderer="colorManagement: true;"
   load-catalog="source: #catalog"
+  background="color: #595959"
   >
     <a-assets>
       <a-asset-item id="catalog" src="./catalog.json"></a-asset-item>
@@ -110,7 +111,7 @@
 
     <!--  <a-entity id="skyMenuSlot" position="0 3 -3" scale="1 1 1" look-at="#camera-ray"></a-entity> -->
 
-    <!-- Camera -->
+    <!-- Camera and Controls -->
     <a-entity id="rig">
       <a-camera look-controls="touchEnabled: false">
         <a-entity id="camera-ray" class="can-select" raycaster="objects: .collidable" cursor="rayOrigin: mouse"
