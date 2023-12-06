@@ -119,15 +119,15 @@
       <a-entity id="leftHand" laser-controls="hand: left" raycaster="objects: .collidable"></a-entity>
       <a-entity id="rightHand" laser-controls="hand: right" raycaster="objects: .collidable"
         intersection-spawn="event: click; mixin: voxel; objects: spawnable; gridSize:5; gridDivisions:20;" class="can-select">
-        <a-entity id="menuHand" scale="0.1 0.1 0.1" look-at="#camera-ray" position="0 0 0.2" mixin="slice"
+        <a-entity id="menuHand" scale="0.1 0.1 0.1" look-at="#camera-ray" position="0 0 -0.2" mixin="slice"
           slice9="height: 1; width: 3; color: #777777">
-          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseColorIndex" class="collidable"
+          <a-triangle proxy-event="event: click; to: a-scene; as: decreaseModelIndex" class="collidable"
             mixin="hoverEffect" rotation="0 0 90" scale="0.5 0.5 0.5" position="-1 0 0.01" material="color: #444"
             sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
-          <a-entity bind__text="value: color.index + '\n' + color.name + '\n' + hex" bind__material="color: color.hex"
-            text="color: #111; width: 3; align: center" geometry="primitive: plane" material="color: #CCC"
-            position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
-          <a-triangle proxy-event="event: click; to: a-scene; as: increaseColorIndex" class="collidable"
+          <a-entity bind__text="value: '\n\n\n\n\n ' + model.name" bind__material="src: 'url(' + model.img + ')'"
+            geometry="primitive: plane; buffer: false; skipCache: true" text="color: #111; width: 3; align: center"
+            material="color: #CCC" position="0 0 0.01" scale="0.9 0.9 0.9"></a-entity>
+          <a-triangle proxy-event="event: click; to: a-scene; as: increaseModelIndex" class="collidable"
             mixin="hoverEffect" rotation="0 0 -90" scale="0.5 0.5 0.5" position="1 0 0.01" material="color: #444"
             sound="src: #select5-ogg; on: click; poolSize: 6;"></a-triangle>
         </a-entity>
