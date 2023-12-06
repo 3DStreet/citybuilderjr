@@ -79,6 +79,7 @@ AFRAME.registerComponent('snap', {
 
     console.log('snapPos', snapPos);
     this.el.object3D.position.copy(snapPos);
+    this.el.object3D.position.y = 0;
 
 
   }
