@@ -66,9 +66,20 @@
       gridhelper="size:5;divisions:10;colorGrid:#000000;colorCenterLine:#222222;"></a-entity> -->
 
     <a-entity id="city-container" anchored="persistent: true">
-      <a-entity id="ground" grid-cursor="allowFrom: .can-select" sound="src: #select6-ogg; on: click; poolSize: 6;"
-        geometry="primitive: box; height: 0.1; width: 5; depth: 5;" class="collidable spawnable" material="visible:false"
-        gridhelper="size:5;divisions:20;colorGrid:#660066;colorCenterLine:#FF5555;"></a-entity>
+      <a-entity id="ground" sound="src: #select6-ogg; on: click; poolSize: 6;" geometry="primitive: box; height: 0.1; width: 5; depth: 5;" class="collidable spawnable" material="visible:false"
+      grid-cursor="allowFrom: .can-select" 
+      gridhelper="size:5;divisions:20;colorGrid:#660066;colorCenterLine:#FF5555;"
+      bind-for="for: item; in: grid; key: coord; updateInPlace: true"
+      >
+        <template>
+          <a-entity scale="0.125 0.125 0.125" 
+                    geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25" material="shader: standard"
+                    snap="offset: 0.125; snap: 0.25"
+                    add-model="name: {{ model }}; gridCoord: {{ coord }}"
+          ></a-entity>
+        </template>
+      </a-entity>
+
 
       <a-entity id="whiteboard" rotation="0 -70 0" scale="0.8 0.8 0.8" position="-0.5 -0.046 -4">
         <a-entity id="whiteboard-model" scale="0.15 0.15 0.2"

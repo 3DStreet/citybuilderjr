@@ -12,3 +12,4 @@ require('./app/intersection-spawn.js');
 require('./app/snap.js');
 require('./app/set-rotation-from-anchor.js');
 require('./app/state.js');
+require('./app/load-model.js');

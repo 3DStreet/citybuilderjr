@@ -35,21 +35,15 @@ const MODELS = {
 const GRID_SIZE = 10; // Example grid size (10x10)
 
 // Initial grid state setup with City Hall at the center
-const INITIAL_GRID_STATE = {};
-for (let lon = -GRID_SIZE; lon <= GRID_SIZE; lon++) {
-  for (let lat = -GRID_SIZE; lat <= GRID_SIZE; lat++) {
-    // Setting up City Hall which occupies 4 central cells
-    if ((lon === 1 || lon === -1) && (lat === 1 || lat === -1)) {
-      INITIAL_GRID_STATE[`${lon},${lat}`] = {
-        model: 'cityhall', // Assuming 'cityhall' is defined in MODELS
-        rotation: 0,
-        elevation: 0
-      };
-    } else {
-      INITIAL_GRID_STATE[`${lon},${lat}`] = {};
-    }
-  }
-}
+const INITIAL_GRID_STATE = [];
+
+[[-1, -1], [-1, 1], [1, -1], [1, 1]].forEach(lon_lat_vals => {
+  const [lon, lat] = lon_lat_vals;
+  INITIAL_GRID_STATE.push(
+    {coord: [lon, lat], model: 'cityhall', rotation: 0, elevation: 0}
+  );
+});
+
 
 const INITIAL_STATE = {
   color: {
@@ -193,12 +187,16 @@ AFRAME.registerComponent('load-catalog', {
     source: {type: 'selector'}
   },
   init: function () {
+    if (!this.data.source) return;
+
     this.jsonCatalogData = JSON.parse(this.data.source.data);
     console.log(this.jsonCatalogData)
     for (let i = 0; i < this.jsonCatalogData.length; i++) {
       const modelMetadataObject = this.jsonCatalogData[i];
       AFRAME.scenes[0].emit('addModel', modelMetadataObject);
     }
+    this.el.catalogIsloaded = true;
+    this.el.emit('catalogIsLoaded');
   }
 });
 
