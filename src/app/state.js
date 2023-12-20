@@ -36,11 +36,11 @@ const GRID_SIZE = 10; // Example grid size (10x10)
 
 // Initial grid state setup with City Hall at the center
 const INITIAL_GRID_STATE = [];
+const INIT_GRID_COORDS = [[-1, -1], [-1, 5], [1, -1], [1, 1]];
 
-[[-1, -1], [-1, 1], [1, -1], [1, 1]].forEach(lon_lat_vals => {
-  const [lon, lat] = lon_lat_vals;
+INIT_GRID_COORDS.forEach(lon_lat_values => {
   INITIAL_GRID_STATE.push(
-    {coord: [lon, lat], model: 'cityhall', rotation: 0, elevation: 0}
+    {coord: lon_lat_values, model: 'cityhall', rotation: 0, elevation: 0}
   );
 });
 
@@ -90,6 +90,7 @@ AFRAME.registerState({
       },
       AFRAME.scenes[0].emit('addModel', payload);
     */
+
     addModel: function (state, payload) {
       state.model.list[payload.name] = {
         'dist': payload.dist,
@@ -101,7 +102,6 @@ AFRAME.registerState({
       console.log('Adding Grid Object:', payload);
 
       let { lon, lat, model, rotation, elevation } = payload;
-      const key = `${lon},${lat}`;
 
       if (!model) {
         model = getModelNameFromState(state);
@@ -114,8 +114,10 @@ AFRAME.registerState({
       }
       console.log('model', model);
       // Prevent modification of City Hall cells
-      if (!['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key] = { model, rotation, elevation };
+      if (!isCityHall(lon, lat)) {
+        state.grid.push(
+          { coord: [lon, lat], model: model, rotation: rotation, elevation: elevation }
+        );
       } else {
         console.log('Cannot place object on city hall');
       }
@@ -125,24 +127,24 @@ AFRAME.registerState({
     // Note: City Hall cells cannot be rotated or elevated
     rotateOrElevateGridObject: function (state, payload) {
       const { lon, lat, rotation, elevation } = payload;
-      const key = `${lon},${lat}`;
+      const keyCell = findGridIndex(state.grid, lon, lat);
 
-      if (state.grid[key] && !['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key].rotation += rotation;
-        state.grid[key].elevation += elevation;
+      if (keyCell) {
+        
+        state.grid[keyCell].rotation += rotation;
+        state.grid[keyCell].elevation += elevation;
       }
     },
     // Handler to clear a cell
     // Note: City Hall cells cannot be cleared
     clearGridCell: function (state, payload) {
       const { lon, lat } = payload;
-      const key = `${lon},${lat}`;
+      const keyCell = findGridIndex(state.grid, lon, lat);
 
-      if (!['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key] = null;
+      if (!keyCell) {
+        state.grid.splice(keyCell, 1);
       }
-    },
-
+    }
 
   },
   computeState: function (newState, payload) {
@@ -153,6 +155,24 @@ AFRAME.registerState({
     newState.model.path = getModelPathFromState(newState);
   }
 });
+
+// check for City Hall cells 
+function isCityHall(lon, lat) {
+  const cityHallCell = INIT_GRID_COORDS.findIndex(
+    (elData) => elData[0] == lon && elData[1] == lat 
+    );
+  return (cityHallCell == -1) ? false: true;
+}
+
+// find index of grid array element by grid coordinates
+function findGridIndex(gridArray, lon, lat) {
+  //  City Hall cells cannot be finded
+  if (isCityHall(lon, lat)) {
+    return null;
+  } else {
+    return gridArray.findIndex((elData) => elData.coord[0] == lon && elData.coord[1] == lat );
+  }
+}
 
 function getColorNameFromState(state) {
   const colorsKey = Object.keys(state.color.list)[state.color.index]; // 'Blue' if index = 0

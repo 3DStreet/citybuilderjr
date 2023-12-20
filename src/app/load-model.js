@@ -27,10 +27,10 @@ AFRAME.registerComponent('add-model', {
       el.setAttribute('position', gridPos);
 
       if (sceneEl.catalogIsloaded) {
-          el.setAttribute('gltf-model', 'url(./' + sceneEl.systems.state.state.model.list[data.name].dist + ')');
+          el.setAttribute('gltf-model', './' + sceneEl.systems.state.state.model.list[data.name].dist);
       } else {
         sceneEl.addEventListener('catalogIsLoaded', () => {
-          el.setAttribute('gltf-model', 'url(./' + sceneEl.systems.state.state.model.list[data.name].dist + ')');
+          el.setAttribute('gltf-model', './' + sceneEl.systems.state.state.model.list[data.name].dist);
         })
       }
   },
@@ -40,17 +40,20 @@ AFRAME.registerComponent('add-model', {
     // grid size (meter) ie 5 meters
     // cellsPerMeter: gridDivisions / gridSize = 4 cells per meter
     const cellsPerMeter = gridDivisions / gridSize;
-    // console.log(`cellsPerMeter: ${cellsPerMeter}`);
+    const snap = this.el.getAttribute('snap');
+    let snapOffset = (snap) ? snap['offset'] : 0.01;
+
     const [posLong, posLat] = 
       lon_lat.map((strVal) => {
-        const numVal = Number(strVal);
-        return (numVal + (numVal >= 0 ? -0.125 : 0.125 )) / cellsPerMeter;
+        const numVal = Number(strVal);        
+        // add - or + snap offset is used to snap element to the desired grid cell
+        return (numVal + (numVal >= 0 ? -snapOffset : snapOffset )) / cellsPerMeter;
       });
     // console.log(`Lat Y: ${posLat}, Long X: ${posLong}`);
 
     const localPos = {
       x: posLong, 
-      z: posLat
+      z: posLat * -1
     };
     return localPos;
   }
