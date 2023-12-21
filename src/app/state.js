@@ -40,7 +40,7 @@ const INIT_GRID_COORDS = [[-1, -1], [-1, 1], [1, -1], [1, 1]];
 
 INIT_GRID_COORDS.forEach(lon_lat_values => {
   INITIAL_GRID_STATE.push(
-    {coord: lon_lat_values, model: 'cityhall', rotation: 0, elevation: 0}
+    {coord: lon_lat_values, model: 'park_base', rotation: 0, elevation: 0}
   );
 });
 
