@@ -35,21 +35,15 @@ const MODELS = {
 const GRID_SIZE = 10; // Example grid size (10x10)
 
 // Initial grid state setup with City Hall at the center
-const INITIAL_GRID_STATE = {};
-for (let lon = -GRID_SIZE; lon <= GRID_SIZE; lon++) {
-  for (let lat = -GRID_SIZE; lat <= GRID_SIZE; lat++) {
-    // Setting up City Hall which occupies 4 central cells
-    if ((lon === 1 || lon === -1) && (lat === 1 || lat === -1)) {
-      INITIAL_GRID_STATE[`${lon},${lat}`] = {
-        model: 'cityhall', // Assuming 'cityhall' is defined in MODELS
-        rotation: 0,
-        elevation: 0
-      };
-    } else {
-      INITIAL_GRID_STATE[`${lon},${lat}`] = {};
-    }
-  }
-}
+const INITIAL_GRID_STATE = [];
+const INIT_GRID_COORDS = [[-1, -1], [-1, 1], [1, -1], [1, 1]];
+
+INIT_GRID_COORDS.forEach(lon_lat_values => {
+  INITIAL_GRID_STATE.push(
+    {coord: lon_lat_values, model: 'park_base', rotation: 0, elevation: 0}
+  );
+});
+
 
 const INITIAL_STATE = {
   color: {
@@ -96,6 +90,7 @@ AFRAME.registerState({
       },
       AFRAME.scenes[0].emit('addModel', payload);
     */
+
     addModel: function (state, payload) {
       state.model.list[payload.name] = {
         'dist': payload.dist,
@@ -107,7 +102,6 @@ AFRAME.registerState({
       console.log('Adding Grid Object:', payload);
 
       let { lon, lat, model, rotation, elevation } = payload;
-      const key = `${lon},${lat}`;
 
       if (!model) {
         model = getModelNameFromState(state);
@@ -120,8 +114,10 @@ AFRAME.registerState({
       }
       console.log('model', model);
       // Prevent modification of City Hall cells
-      if (!['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key] = { model, rotation, elevation };
+      if (!isCityHall(lon, lat)) {
+        state.grid.push(
+          { coord: [lon, lat], model: model, rotation: rotation, elevation: elevation }
+        );
       } else {
         console.log('Cannot place object on city hall');
       }
@@ -131,24 +127,24 @@ AFRAME.registerState({
     // Note: City Hall cells cannot be rotated or elevated
     rotateOrElevateGridObject: function (state, payload) {
       const { lon, lat, rotation, elevation } = payload;
-      const key = `${lon},${lat}`;
+      const keyCell = findGridIndex(state.grid, lon, lat);
 
-      if (state.grid[key] && !['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key].rotation += rotation;
-        state.grid[key].elevation += elevation;
+      if (keyCell) {
+        
+        state.grid[keyCell].rotation += rotation;
+        state.grid[keyCell].elevation += elevation;
       }
     },
     // Handler to clear a cell
     // Note: City Hall cells cannot be cleared
     clearGridCell: function (state, payload) {
       const { lon, lat } = payload;
-      const key = `${lon},${lat}`;
+      const keyCell = findGridIndex(state.grid, lon, lat);
 
-      if (!['1,1', '-1,1', '-1,-1', '1,-1'].includes(key)) {
-        state.grid[key] = null;
+      if (!keyCell) {
+        state.grid.splice(keyCell, 1);
       }
-    },
-
+    }
 
   },
   computeState: function (newState, payload) {
@@ -159,6 +155,24 @@ AFRAME.registerState({
     newState.model.path = getModelPathFromState(newState);
   }
 });
+
+// check for City Hall cells 
+function isCityHall(lon, lat) {
+  const cityHallCell = INIT_GRID_COORDS.findIndex(
+    (elData) => elData[0] == lon && elData[1] == lat 
+    );
+  return (cityHallCell == -1) ? false: true;
+}
+
+// find index of grid array element by grid coordinates
+function findGridIndex(gridArray, lon, lat) {
+  //  City Hall cells cannot be finded
+  if (isCityHall(lon, lat)) {
+    return null;
+  } else {
+    return gridArray.findIndex((elData) => elData.coord[0] == lon && elData.coord[1] == lat );
+  }
+}
 
 function getColorNameFromState(state) {
   const colorsKey = Object.keys(state.color.list)[state.color.index]; // 'Blue' if index = 0
@@ -193,12 +207,16 @@ AFRAME.registerComponent('load-catalog', {
     source: {type: 'selector'}
   },
   init: function () {
+    if (!this.data.source) return;
+
     this.jsonCatalogData = JSON.parse(this.data.source.data);
     console.log(this.jsonCatalogData)
     for (let i = 0; i < this.jsonCatalogData.length; i++) {
       const modelMetadataObject = this.jsonCatalogData[i];
       AFRAME.scenes[0].emit('addModel', modelMetadataObject);
     }
+    this.el.catalogIsloaded = true;
+    this.el.emit('catalogIsLoaded');
   }
 });
 
