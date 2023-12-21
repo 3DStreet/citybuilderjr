@@ -36,7 +36,7 @@ const GRID_SIZE = 10; // Example grid size (10x10)
 
 // Initial grid state setup with City Hall at the center
 const INITIAL_GRID_STATE = [];
-const INIT_GRID_COORDS = [[-1, -1], [-1, 5], [1, -1], [1, 1]];
+const INIT_GRID_COORDS = [[-1, -1], [-1, 1], [1, -1], [1, 1]];
 
 INIT_GRID_COORDS.forEach(lon_lat_values => {
   INITIAL_GRID_STATE.push(
