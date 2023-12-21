@@ -1,21 +1,5 @@
 [
   {
-    "name": "cityhall",
-    "src": "src/models/cityhall/cityhall.gltf",
-    "bboxMin": [
-      -1.91792,
-      0.00707,
-      -1.92385
-    ],
-    "bboxMax": [
-      2.11712,
-      1.97267,
-      2.04856
-    ],
-    "dist": "dist/models/cityhall.glb",
-    "img": "dist/img/cityhall.jpg"
-  },
-  {
     "name": "watertower",
     "src": "src/models/kaykit/watertower.gltf",
     "bboxMin": [
@@ -1182,5 +1166,21 @@
     ],
     "dist": "dist/models/base.glb",
     "img": "dist/img/base.jpg"
+  },
+  {
+    "name": "cityhall",
+    "src": "src/models/cityhall/cityhall.gltf",
+    "bboxMin": [
+      -1.0016,
+      0,
+      -1.0016
+    ],
+    "bboxMax": [
+      1.0016,
+      0.98418,
+      1.0016
+    ],
+    "dist": "dist/models/cityhall.glb",
+    "img": "dist/img/cityhall.jpg"
   }
 ]
