@@ -76,7 +76,9 @@
           <a-entity scale="0.125 0.125 0.125" 
                     geometry="primitive: box; height: 0.25; width: 0.25; depth: 0.25" material="shader: standard"
                     snap="offset: 0.125; snap: 0.25"
-                    add-model="name: {{ model }}; gridCoord: {{ coord }}"
+                    bind-item__grid-rotation="rotation: item.rotation"
+                    bind-item__grid-model="model: item.model"
+                    bind-item__grid-coord="gridCoord: item.coord"
           ></a-entity>
         </template>
       </a-entity>

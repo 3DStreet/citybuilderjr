@@ -36,11 +36,14 @@ const GRID_SIZE = 10; // Example grid size (10x10)
 
 // Initial grid state setup with City Hall at the center
 const INITIAL_GRID_STATE = [];
+
 const INIT_GRID_COORDS = [[-1, -1], [-1, 1], [1, -1], [1, 1]];
 
-INIT_GRID_COORDS.forEach(lon_lat_values => {
+INIT_GRID_COORDS.forEach(coord => {
+  const lon = coord[0];
+  const lat = coord[1];
   INITIAL_GRID_STATE.push(
-    {coord: lon_lat_values, model: 'park_base', rotation: 0, elevation: 0}
+    {coord: coord.join(','), model: 'park_base', rotation: 0, elevation: 0}
   );
 });
 
@@ -103,7 +106,10 @@ AFRAME.registerState({
 
       let { lon, lat, model, rotation, elevation } = payload;
 
-      if (isCityHall(lon, lat)) return;
+      if (isCityHall(lon, lat)) {
+        console.log('Cannot place object on city hall');
+        return;
+      }
 
       if (!model) {
         model = getModelNameFromState(state);
@@ -117,39 +123,56 @@ AFRAME.registerState({
       console.log('model', model);
       const keyCell = findGridIndex(state.grid, lon, lat);
 
-      // Prevent modification of City Hall cells and exists cells
       if (!keyCell) {
+        // If the cell is free add selected model to the spawned cell
         state.grid.push(
-          { coord: [lon, lat], model: model, rotation: rotation, elevation: elevation }
+          { coord: [lon, lat].join(','), model: model, rotation: rotation, elevation: elevation }
         );
       } else {
-        console.log('Cannot place object on city hall');
+        
+        if (state.grid[keyCell].model === model) {
+          // if the cell model is the same as the selected model
+          this.rotateOrElevateGridObject(state, {keyCell, addRotation: 90});
+        } else {
+          // change the current model of element to selected model
+          // Setting the __dirty flag is needed to track changes 
+          // in the value of individual elements, but not the entire array
+          state.grid.__dirty = true; 
+          state.grid[keyCell].model = model; 
+          state.grid[keyCell].rotation = 0;
+        }  
       }
       console.log('Updated Grid State:', state.grid);
     },
     // Handler to rotate or elevate an object
     // Note: City Hall cells cannot be rotated or elevated
     rotateOrElevateGridObject: function (state, payload) {
-      const { lon, lat, rotation, elevation } = payload;
+      let { lon, lat, addRotation, addElevation, keyCell } = payload;
 
       if (isCityHall(lon, lat)) return;
 
-      const keyCell = findGridIndex(state.grid, lon, lat);
+      keyCell = keyCell ?? findGridIndex(state.grid, lon, lat);
 
-      if (keyCell) {
-        
-        state.grid[keyCell].rotation += rotation;
-        state.grid[keyCell].elevation += elevation;
+      if (addRotation) {
+        // Setting the __dirty flag is needed to track changes 
+        // in the value of individual elements, but not the entire array
+        state.grid.__dirty = true;
+        const currentRot = state.grid[keyCell].rotation;
+        // prevent big rotation values
+        state.grid[keyCell].rotation = (currentRot + addRotation) % 360;
       }
+
+      if (addElevation) state.grid[keyCell].elevation += addElevation;
+      
     },
     // Handler to clear a cell
     // Note: City Hall cells cannot be cleared
     clearGridCell: function (state, payload) {
-      const { lon, lat } = payload;
+      const { lon, lat, keyCell } = payload;
       
       if (isCityHall(lon, lat)) return;
 
-      const keyCell = findGridIndex(state.grid, lon, lat);
+      keyCell = keyCell ?? findGridIndex(state.grid, lon, lat);
 
       if (keyCell) {
         state.grid.splice(keyCell, 1);
@@ -168,16 +191,21 @@ AFRAME.registerState({
 
 // check for City Hall cells 
 function isCityHall(lon, lat) {
+  if (! lon && lat) return false;
+
   const cityHallCell = INIT_GRID_COORDS.findIndex(
-    (elData) => elData[0] == lon && elData[1] == lat 
+    (coord) => coord[0] == lon && coord[1] == lat 
     );
   return (cityHallCell == -1) ? false: true;
 }
 
 // find index of grid array element by grid coordinates
 function findGridIndex(gridArray, lon, lat) {
+  if (! lon && lat) return;
+  const strCoord = [lon, lat].join(',');
+
   const gridArrayIndex = gridArray.findIndex(
-    (elData) => elData.coord[0] == lon && elData.coord[1] == lat 
+    (elData) => elData.coord == strCoord
     );
   return gridArrayIndex === -1 ? null : gridArrayIndex;
 }
@@ -225,6 +253,7 @@ AFRAME.registerComponent('load-catalog', {
     }
     this.el.catalogIsloaded = true;
     this.el.emit('catalogIsLoaded');
+
   }
 });
 
