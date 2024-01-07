@@ -12,4 +12,6 @@ require('./app/intersection-spawn.js');
 require('./app/snap.js');
 require('./app/set-rotation-from-anchor.js');
 require('./app/state.js');
-require('./app/load-model.js');
+require('./app/grid-coord.js');
+require('./app/grid-model.js');
+require('./app/grid-rotation.js');

@@ -31,7 +31,6 @@ AFRAME.registerComponent('intersection-spawn', {
       const localPos = _worldToLocal(evt.detail.intersection.point, targetEl); // convert world intersection position to local position
 
       const gridPos = this.localToStateGrid(localPos, data.gridSize, data.gridDivisions);
-      // console.log('Grid Position:', gridPos);
 
       AFRAME.scenes[0].emit('addGridObject', {
         lon: gridPos.x,
