@@ -103,6 +103,8 @@ AFRAME.registerState({
 
       let { lon, lat, model, rotation, elevation } = payload;
 
+      if (isCityHall(lon, lat)) return;
+
       if (!model) {
         model = getModelNameFromState(state);
       }
@@ -113,8 +115,10 @@ AFRAME.registerState({
         elevation = 0;
       }
       console.log('model', model);
-      // Prevent modification of City Hall cells
-      if (!isCityHall(lon, lat)) {
+      const keyCell = findGridIndex(state.grid, lon, lat);
+
+      // Prevent modification of City Hall cells and exists cells
+      if (!keyCell) {
         state.grid.push(
           { coord: [lon, lat], model: model, rotation: rotation, elevation: elevation }
         );
@@ -127,6 +131,9 @@ AFRAME.registerState({
     // Note: City Hall cells cannot be rotated or elevated
     rotateOrElevateGridObject: function (state, payload) {
       const { lon, lat, rotation, elevation } = payload;
+
+      if (isCityHall(lon, lat)) return;
+
       const keyCell = findGridIndex(state.grid, lon, lat);
 
       if (keyCell) {
@@ -139,9 +146,12 @@ AFRAME.registerState({
     // Note: City Hall cells cannot be cleared
     clearGridCell: function (state, payload) {
       const { lon, lat } = payload;
+      
+      if (isCityHall(lon, lat)) return;
+
       const keyCell = findGridIndex(state.grid, lon, lat);
 
-      if (!keyCell) {
+      if (keyCell) {
         state.grid.splice(keyCell, 1);
       }
     }
@@ -166,12 +176,10 @@ function isCityHall(lon, lat) {
 
 // find index of grid array element by grid coordinates
 function findGridIndex(gridArray, lon, lat) {
-  //  City Hall cells cannot be finded
-  if (isCityHall(lon, lat)) {
-    return null;
-  } else {
-    return gridArray.findIndex((elData) => elData.coord[0] == lon && elData.coord[1] == lat );
-  }
+  const gridArrayIndex = gridArray.findIndex(
+    (elData) => elData.coord[0] == lon && elData.coord[1] == lat 
+    );
+  return gridArrayIndex === -1 ? null : gridArrayIndex;
 }
 
 function getColorNameFromState(state) {
